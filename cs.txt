@@ -5,3 +5,4 @@ http://alivealone.litenews.cn/161/7c3e0abc7a604487ab088e35edb7032b.flv
 rtmp://alivealone.litenews.cn/161/7c3e0abc7a604487ab088e35edb7032b
 蒙阴-2,
 http://alivealone.litenews.cn/161/c5db65a7d96948d2be14e470e4c829b2.flv
+蒙阴-2rtmp://alivealone.litenews.cn/161/c5db65a7d96948d2be14e470e4c829b2
