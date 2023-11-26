@@ -1,1 +1,6 @@
 CCTV1,http://[2409:8087:2001:20:2800:0:df6e:eb26]/ott.mobaibox.com/PLTV/1/224/3221228213/index.m3u8
+纬来体育,http://cloud.yumixiu768.com/tmp/123.m3u8
+蒙阴综合,
+http://alivealone.litenews.cn/161/7c3e0abc7a604487ab088e35edb7032b.flv
+蒙阴-2,
+http://alivealone.litenews.cn/161/c5db65a7d96948d2be14e470e4c829b2.flv
