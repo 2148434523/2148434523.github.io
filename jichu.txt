@@ -85,24 +85,9 @@ CCTV6,http://[2409:8087:2001:20:2800:0:df6e:eb21]:80/wh7f454c46tw91887181_210554
 CCTV6,http://[2409:8087:2001:20:2800:0:df6e:eb11]/wh7f454c46tw3638036299_1291232473/ott.mobaibox.com/PLTV/88888890/224/3221225548/index.m3u8?icpid=88888890&RTS=1687951555&from=40&popid=40&hms_devid=2110&prioritypopid=40&vqe=3
 CCTV6,http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001188/index.m3u8
 CCTV6,http://183.196.25.171:808/hls/76/index.m3u8
-CCTV7,http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225644/index.m3u8
-CCTV7,https://pi.0472.org/live?auth=202308110958&id=cctv7
-CCTV7,http://php.17186.eu.org/ysp/cctv7.m3u8
-CCTV7,http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225499/index.m3u8?fmt=ts2hls
-CCTV7,http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225624/index.m3u8
 CCTV7,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226192/index.m3u8
 CCTV7,http://[2409:8087:2001:20:2800:0:df6e:eb03]/wh7f454c46tw3611200837_1507882604/ott.mobaibox.com/PLTV/88888890/224/3221225546/index.m3u8?icpid=88888890&RTS=1687951528&from=40&popid=40&hms_devid=2039&prioritypopid=40&vqe=3
 CCTV7,http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001236/index.m3u8
-CCTV7,https://live.goodiptv.club/api/bestv.php?id=cctv7hd8m/8000000
-CCTV7,rtsp://115.153.245.70/PLTV/88888888/224/3221226827/59814693.smil
-CCTV7,rtsp://115.153.233.154/PLTV/88888888/224/3221226827/59814693.smil
-CCTV7,http://118.24.227.124/tv.live.cbnbn.cn/__cl/cg:live/__c/cctv7HD/__op/default/__f/index.m3u8
-CCTV7,http://39.134.115.163:8080/PLTV/88888910/224/3221225624/index.m3u8
-CCTV7,http://39.134.115.163:8080/PLTV/88888910/224/3221225644/index.m3u8
-CCTV7,http://153.35.100.114:80/tlivectfree-cdn.ysp.cctv.cn/ysp/2000510003.m3u8
-CCTV7,http://117.148.179.160/PLTV/88888888/224/3221231633/index.m3u8
-CCTV7,rtsp://115.153.212.72/PLTV/88888888/224/3221226827/59814693.smil
-CCTV7,http://tvmvip110.club/as.php?id=cctv7hd
 CCTV7,http://183.196.25.171:808/hls/7/index.m3u8
 
 CCTV8,http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225631/index.m3u8
