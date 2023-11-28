@@ -80,23 +80,9 @@ CCTV4,http://183.196.25.171:808/hls/4/index.m3u8
 CCTV5,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226395/index.m3u8
 CCTV5,http://[2409:8087:2001:20:2800:0:df6e:eb22]/ott.mobaibox.com/PLTV/4/224/3221228502/index.m3u8
 CCTV5,http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001187/index.m3u8
-CCTV5,https://live.goodiptv.club/api/bestv.php?id=cctv58m/8000000
-CCTV5,rtsp://115.153.245.70/PLTV/88888888/224/3221226907/65396401.smil
-CCTV5,http://118.24.227.124/tv.live.cbnbn.cn/__cl/cg:live/__c/cctv5HD/__op/default/__f/index.m3u8
-CCTV5,rtsp://115.153.233.154/PLTV/88888888/224/3221226852/63329574.smil
-CCTV5,http://39.134.115.163:8080/PLTV/88888910/224/3221225633/index.m3u8
-CCTV5,http://153.35.100.114:80/tlivectfree-cdn.ysp.cctv.cn/ysp/2000205103.m3u8
-CCTV5,http://117.148.179.162/PLTV/88888888/224/3221233031/index.m3u8
-CCTV5,http://117.148.179.162/PLTV/88888888/224/3221233115/index.m3u8
-CCTV5,rtsp://115.153.233.154/PLTV/88888888/224/3221226907/65396401.smil
-CCTV5,rtsp://115.153.212.72/PLTV/88888888/224/3221226907/65396401.smil
-CCTV5,http://tvmvip110.club/as.php?id=cctv5hd
-CCTV5,http://121.51.249.103/tlivecloud-ipv6.ysp.cctv.cn/001/2000205103.m3u8
-CCTV5,http://124.232.233.6:6060/000000001901/202200010010/index.m3u8?m3u8_level=2
-CCTV5,http://183.196.25.171:808/hls/78/index.m3u8
-CCTV5,rtsp://115.153.245.70/PLTV/88888888/224/3221226852/63329574.smil
 
-CCTV6,http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225632/index.m3u8
+CCTV5,http://183.196.25.171:808/hls/78/index.m3u8
+
 CCTV6,https://pi.0472.org/live?auth=202308110958&id=cctv6
 CCTV6,http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221226253/index.m3u8?fmt=ts2hls
 CCTV6,http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225650/index.m3u8
