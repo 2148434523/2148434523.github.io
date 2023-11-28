@@ -124,17 +124,6 @@ CCTV15,http://183.196.25.171:808/hls/15/index.m3u8
 CCTV16,https://live.goodiptv.club/api/bestv.php?id=cctv16hd8m/8000000
 
 CCTV17,http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001241/index.m3u8
-CCTV17,https://live.goodiptv.club/api/bestv.php?id=cctv17hd8m/8000000
-CCTV17,rtsp://115.153.245.70/PLTV/88888888/224/3221226846/61397282.smil
-CCTV17,rtsp://115.153.233.154/PLTV/88888888/224/3221226846/61397282.smil
-CCTV17,http://118.24.227.124/tv.live.cbnbn.cn/__cl/cg:live/__c/cctv17HD/__op/default/__f/index.m3u8
-CCTV17,http://39.134.115.163:8080/PLTV/88888910/224/3221225908/index.m3u8
-CCTV17,http://153.35.100.114:80/tlivectfree-cdn.ysp.cctv.cn/ysp/2000204203.m3u8
-CCTV17,http://117.148.179.167/PLTV/88888888/224/3221231772/index.m3u8
-CCTV17,rtsp://115.153.212.72/PLTV/88888888/224/3221226846/61397282.smil
-CCTV17,http://tvmvip110.club/as.php?id=cctv17hd
-CCTV17,http://121.51.249.103/tlivecloud-ipv6.ysp.cctv.cn/001/2000204203.m3u8
-CCTV17,http://124.232.233.6:6060/000000001901/202200010027/index.m3u8?m3u8_level=2
 CCTV17,http://183.196.25.171:808/hls/93/index.m3u8
 
 CCTV16 4K,https://pi.0472.org/live?auth=202308110958&id=cctv164K
