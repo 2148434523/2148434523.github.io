@@ -1,1 +1,1 @@
-广东珠江,sop://124.232.150.188:3920/5185
+广东珠江,https://tcdn.itouchtv.cn/live/gdzj.m3u8
