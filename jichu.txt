@@ -114,23 +114,8 @@ CCTV13,http://live.cooltv.top/tv/aishang.php?id=cctv13hd
 CCTV13,http://39.135.138.59:18890/PLTV/88888910/224/3221225638/index.m3u8
 CCTV13,https://live-play.cctvnews.cctv.com/cctv/merge_cctv13_mud.m3u8
 
-CCTV14,http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225640/index.m3u8
-CCTV14,https://pi.0472.org/live?auth=202308110958&id=cctv14
-CCTV14,http://php.17186.eu.org/ysp/cctv14.m3u8
-CCTV14,http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225494/index.m3u8?fmt=ts2hls
-CCTV14,http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225639/index.m3u8
 CCTV14,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226193/index.m3u8
 CCTV14,http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001240/index.m3u8
-CCTV14,https://live.goodiptv.club/api/bestv.php?id=cctvsehd8m/8000000
-CCTV14,rtsp://115.153.245.70/PLTV/88888888/224/3221226634/51813368.smil
-CCTV14,rtsp://115.153.212.72/PLTV/88888888/224/3221226634/51813368.smil
-CCTV14,http://118.24.227.124/tv.live.cbnbn.cn/__cl/cg:live/__c/cctvseHD/__op/default/__f/index.m3u8
-CCTV14,http://39.134.115.163:8080/PLTV/88888910/224/3221225639/index.m3u8
-CCTV14,http://39.134.115.163:8080/PLTV/88888910/224/3221225640/index.m3u8
-CCTV14,http://153.35.100.114:80/tlivectfree-cdn.ysp.cctv.cn/ysp/2000204403.m3u8
-CCTV14,http://117.148.179.182/PLTV/88888888/224/3221231648/index.m3u8
-CCTV14,http://tvmvip110.club/as.php?id=cctv14hd
-CCTV14,http://124.232.233.6:6060/000000001901/202200010024/index.m3u8?m3u8_level=2
 CCTV14,http://183.196.25.171:808/hls/14/index.m3u8
 
 CCTV15,http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225641/index.m3u8
