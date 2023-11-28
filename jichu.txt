@@ -56,7 +56,7 @@ CGTN记录,http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888888/224/32212256
 CCTV1,http://[2409:8087:2001:20:2800:0:df6e:eb04]/wh7f454c46tw3277508627_822511156/ott.mobaibox.com/PLTV/88888890/224/3221225530/index.m3u8?icpid=88888890&RTS=1687951194&from=40&popid=40&hms_devid=2041&prioritypopid=40&vqe=3
 CCTV1,http://[2409:8087:2001:20:2800:0:df6e:eb04]/wh7f454c46tw1929915157_-1559215175/ott.mobaibox.com/PLTV/88888890/224/3221226316/index.m3u8?icpid=88888890&RTS=1687954142&from=40&popid=40&hms_devid=2041&prioritypopid=40&vqe=3
 CCTV1,http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001022/index.m3u8
-CCTV1,https://live.goodiptv.club/api/bestv.php?id=cctv1hd8m/8000000
+
 CCTV1,rtsp://115.153.233.154/PLTV/88888888/224/3221225699/iptv8040.smil
 CCTV1,rtsp://115.153.245.70/PLTV/88888888/224/3221225699/iptv8040.smil
 CCTV1,http://118.24.227.124/tv.live.cbnbn.cn/__cl/cg:live/__c/cctv1HD/__op/default/__f/index.m3u8
