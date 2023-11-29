@@ -664,3 +664,12 @@ CGTV,http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000001024/ind
 黑龙江卫视,http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001031/index.m3u8？
 凤凰中文,http://[2409:8087:2001:20:2800:0:df6e:eb27]/wh7f454c46tw3352677969_1732462333/ott.mobaibox.com/PLTV/3/224/3221228524/index.m3u8
 凤凰资讯,http://[2409:8087:2001:20:2800:0:df6e:eb24]/wh7f454c46tw3553140416_-2021535160/ott.mobaibox.com/PLTV/3/224/3221228527/index.m3u8
+
+安徽本地,#genre#
+安徽公共,https://snapshot-live-ht.ahtv.cn/atvrtmp/143_q_live161829349154529.m3u8
+安徽综艺体育,https://snapshot-live-ht.ahtv.cn/atvrtmp/143_q_live161829415240627.m3u8
+安徽影视,https://snapshot-live-ht.ahtv.cn/atvrtmp/143_q_live161829369249612.m3u8
+安徽农业科教,https://snapshot-live-ht.ahtv.cn/atvrtmp/143_q_live161829358013848.m3u8
+安徽经济生活,https://snapshot-live-ht.ahtv.cn/atvrtmp/143_q_live161829325295495.m3u8
+安徽导视,https://livehls1.appcoo.com/liveshopping/949E0A98C9D0C311/6D925141BC1F8C28/index.m3u8
+
