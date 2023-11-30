@@ -1,86 +1,56 @@
-🐯动画片,#genre#
-嘉佳卡通,http://113.117.74.17:808/hls/126/index.m3u8
-哈哈炫动,http://113.117.74.17:808/hls/127/index.m3u8
-金鹰卡通,http://113.117.74.17:808/hls/129/index.m3u8
-优漫卡通,http://113.117.74.17:808/hls/128/index.m3u8
-【七龍珠改】超级赛亚人孙捂空,https://epg.112114.xyz/huya/11601966
-【Blue胖】你看得到我的腿吗,https://epg.112114.xyz/huya/11601963
-【海绵宝宝】黄方块的爆笑生活~,https://epg.112114.xyz/huya/11352919
-【猫和老鼠】汤姆和杰瑞的故事,https://epg.112114.xyz/huya/11352879
-搞笑的一家人,https://epg.112114.xyz/huya/11342402
-网球王子·费德勒看了想打人,https://epg.112114.xyz/huya/11352882
-蜡笔小新·逗比少年欢乐多,https://epg.112114.xyz/huya/11352970
-路飞带领大家向顶上前进,https://epg.112114.xyz/huya/16913382
-【中华小当家】看的我口水直流～,https://epg.112114.xyz/huya/11342413
-冲啊！四驱兄弟嘴控大战,https://epg.112114.xyz/huya/11352922
-茶啊二中,https://epg.112114.xyz/huya/11213191
-灵剑山·试炼开启,https://epg.112114.xyz/huya/11352896
-乐高大师赛！创意惊人,https://epg.112114.xyz/huya/26355776
-小时候玩不起的超帅玩具,https://epg.112114.xyz/huya/26355832
-成龍历险记·社会我阿福乌鸦坐飞机,https://epg.112114.xyz/huya/11352946
-24小时连播蓝胖子,http://zzy789.xyz/bili.php?id=482946
-【哆啦A梦】旧版全集,http://zzy789.xyz/bili.php?id=1717236
-全集哆啦A梦大山版24小时轮播,http://zzy789.xyz/bili.php?id=346400
-哆啦A梦小剧场,http://zzy789.xyz/bili.php?id=21310390
-哆啦A梦新番剧318-325,http://zzy789.xyz/bili.php?id=7204293
-哆啦A梦台配剧场版24小时轮播,http://zzy789.xyz/bili.php?id=6419694
-24小时动漫直播间,http://zzy789.xyz/bili.php?id=279430
-樱桃小丸子国语台配,http://zzy789.xyz/bili.php?id=11765640
-樱桃小丸子蜡笔小新蓝光特别版,http://zzy789.xyz/bili.php?id=21614203
-樱桃小丸子,http://zzy789.xyz/bili.php?id=11392177
-樱桃小丸子台配国语24小时轮播,http://zzy789.xyz/bili.php?id=23242774
-樱桃小丸子台配,http://zzy789.xyz/bili.php?id=23907135
-樱桃小丸子国配旁白,http://zzy789.xyz/bili.php?id=22034682
-樱桃小丸子,http://zzy789.xyz/bili.php?id=6554860
-【海绵宝宝】文明观看素质弹幕,http://zzy789.xyz/bili.php?id=61834
-【海绵宝宝】1-13季24H循环,http://zzy789.xyz/bili.php?id=14495324
-海绵宝宝央配,http://zzy789.xyz/bili.php?id=4355330
-海绵宝宝央配,http://zzy789.xyz/bili.php?id=9819411
-海绵宝宝,http://zzy789.xyz/bili.php?id=21935649
-【海绵宝宝】24H在线连播，一起看更精彩,http://zzy789.xyz/bili.php?id=6264785
-海绵宝宝妙妙屋,http://zzy789.xyz/bili.php?id=23600820
-迪士尼经典动画,http://zzy789.xyz/bili.php?id=24489519
-【蜡笔小新】国语高清，24小时直播哦！,http://zzy789.xyz/bili.php?id=10375360
-【蜡笔小新】绝版画质,http://zzy789.xyz/bili.php?id=21570935
-蜡笔小新24h睡觉背景音,http://zzy789.xyz/bili.php?id=11579951
-【蜡笔小新】你回来了～,http://zzy789.xyz/bili.php?id=22804740
-蜡笔小新,http://zzy789.xyz/bili.php?id=1895574
-【蜡笔小新】24小时无限大放送,http://zzy789.xyz/bili.php?id=21333965
-涂糊涂的蜡笔小新,http://zzy789.xyz/bili.php?id=49132
-【蜡笔小新】高清国语24h直播,http://zzy789.xyz/bili.php?id=22356720
-蜡笔小新国语轮播,http://zzy789.xyz/bili.php?id=22765729
-【蜡笔小新】国语高清，24小时直播哦！,http://zzy789.xyz/bili.php?id=23684726
-野原新之助蜡笔小新新番24H随机播放,http://zzy789.xyz/bili.php?id=21507503
-[蜡笔小新]高清国语24小时轮播,http://zzy789.xyz/bili.php?id=22683218
-【日语配音】24H陪你看蜡笔小新~,http://zzy789.xyz/bili.php?id=24609114
-蜡笔小新剧场版【高清】【测试】,http://zzy789.xyz/bili.php?id=7441943
-你回来了-【蜡笔小新】,http://zzy789.xyz/bili.php?id=24872140
-蜡笔小新全集高清在线24h播放,http://zzy789.xyz/bili.php?id=23190944
-【蜡笔小新】进来看电影了喂～,http://zzy789.xyz/bili.php?id=22693306
-柯南和蜡笔小新轮播高清国语,http://zzy789.xyz/bili.php?id=23000636
-【高清】522蜡笔小新陪你一起过！,http://zzy789.xyz/bili.php?id=24882087
-名侦探柯南（主要剧情随缘播）,http://zzy789.xyz/bili.php?id=181453
-【国语超清】犬夜叉-乱马-童年向轮播,http://zzy789.xyz/bili.php?id=11224983
-童年回忆杀!国语犬夜叉!24h不间断直播,http://zzy789.xyz/bili.php?id=23089518
-国语高达,http://zzy789.xyz/bili.php?id=22834365
-中华小当家/中华一番东方零食总部,http://zzy789.xyz/bili.php?id=655291
-四驱兄弟/爆走兄弟WGPMAX,http://zzy789.xyz/bili.php?id=10544270
-飞哥与小佛,http://zzy789.xyz/bili.php?id=5759023
-飞出个未来Futurama蓝光下饭神剧,http://zzy789.xyz/bili.php?id=1954990
-动画电影专场只有想不到没有找不到,http://zzy789.xyz/bili.php?id=23153930
-动画狂欢曲-芭比,http://zzy789.xyz/bili.php?id=662181
-童年回忆丨守护甜心丨全三季轮播,http://zzy789.xyz/bili.php?id=14434
-开心汉堡店怪诞小镇24h轮播,http://zzy789.xyz/bili.php?id=2308015
-经典番剧/动漫/剧场版24时轮播,http://zzy789.xyz/bili.php?id=21751462
-开心超人联盟（开心宝贝）童年版,http://zzy789.xyz/bili.php?id=11606075
-童年回忆X百变小樱7X24最全资源轮播,http://zzy789.xyz/bili.php?id=34340
-【爷青回】中华小子25x8不间断直播,http://zzy789.xyz/bili.php?id=22194340
-经典动漫（推理、童年、灵异）,http://zzy789.xyz/bili.php?id=4089143
-咱们裸熊！24小时循环直播！,http://zzy789.xyz/bili.php?id=11168667
-经典特摄剧登场,http://zzy789.xyz/bili.php?id=24781991
-动画＆电影合集，随缘播放,http://zzy789.xyz/bili.php?id=24511160
-【游戏王】今天一起看V6,http://zzy789.xyz/bili.php?id=23891000
-童年回忆-喜羊羊与灰太狼-周星驰-林正英,http://zzy789.xyz/bili.php?id=25060711
-⭐经典动漫播不停⭐,http://zzy789.xyz/bili.php?id=21395123
-LexBurner,http://zzy789.xyz/bili.php?id=11365
--猫大人-,http://zzy789.xyz/bili.php?id=723
+广州综合,http://ct.whosayssowhat.top:4022/udp/239.253.43.71:5146
+广州新闻,http://ct.whosayssowhat.top:4022/udp/239.253.43.72:5146
+广州影视,http://ct.whosayssowhat.top:4022/udp/239.253.43.73:5146
+广州法治,http://ct.whosayssowhat.top:4022/udp/239.253.43.74:5146
+广州竞赛,http://ct.whosayssowhat.top:4022/udp/239.253.43.75:5146
+南国都市4K,http://ct.whosayssowhat.top:4022/udp/239.77.0.233:5146
+深圳卫视,http://ct.whosayssowhat.top:4022/udp/239.77.0.130:5146
+深圳都市,http://ct.whosayssowhat.top:4022/udp/239.77.1.176:5146
+深圳电视剧,http://ct.whosayssowhat.top:4022/udp/239.77.1.125:5146
+深圳公共,http://ct.whosayssowhat.top:4022/udp/239.77.1.178:5146
+深圳体育健康,http://ct.whosayssowhat.top:4022/udp/239.77.1.140:5146
+深圳娱乐,http://ct.whosayssowhat.top:4022/udp/239.77.1.243:5146
+深圳财经生活,http://ct.whosayssowhat.top:4022/udp/239.77.1.242:5146
+深圳少儿,http://ct.whosayssowhat.top:4022/udp/239.77.1.244:5146
+深圳宝安,http://ct.whosayssowhat.top:4022/udp/239.77.1.67:5146
+深圳龙岗,http://ct.whosayssowhat.top:4022/udp/239.77.1.223:5146
+深圳东部,http://ct.whosayssowhat.top:4022/udp/239.77.1.224:5146
+深圳众创TV,http://ct.whosayssowhat.top:4022/udp/239.77.1.247:5146
+佛山公共,http://ct.whosayssowhat.top:4022/udp/239.253.43.53:5146
+佛山南海,http://ct.whosayssowhat.top:4022/udp/239.253.43.54:5146
+佛山顺德,http://ct.whosayssowhat.top:4022/udp/239.253.43.55:5146
+佛山影视,http://ct.whosayssowhat.top:4022/udp/239.253.43.56:5146
+佛山综合,http://ct.whosayssowhat.top:4022/udp/239.253.43.57:5146
+惠州-1,http://ct.whosayssowhat.top:4022/udp/239.77.1.232:5146
+惠州-2,http://ct.whosayssowhat.top:4022/udp/239.77.1.233:5146
+江门综合,http://ct.whosayssowhat.top:4022/udp/239.77.0.201:5146
+江门公共,http://ct.whosayssowhat.top:4022/udp/239.77.0.202:5146
+江门教育,http://ct.whosayssowhat.top:4022/udp/239.77.0.203:5146
+中山综合,http://ct.whosayssowhat.top:4022/udp/239.253.43.62:5146
+中山公共,http://ct.whosayssowhat.top:4022/udp/239.253.43.63:5146
+中山教育,http://ct.whosayssowhat.top:4022/udp/239.253.43.64:5146
+汕尾-1,http://ct.whosayssowhat.top:4022/udp/239.77.0.25:5146
+汕尾-2,http://ct.whosayssowhat.top:4022/udp/239.77.0.187:5146
+珠海-1,http://ct.whosayssowhat.top:4022/udp/239.77.0.155:5146
+珠海-2,http://ct.whosayssowhat.top:4022/udp/239.77.0.154:5146
+韶关综合,http://ct.whosayssowhat.top:4022/udp/239.77.0.117:5146
+韶关公共,http://ct.whosayssowhat.top:4022/udp/239.77.0.119:5146
+湛江综合,http://ct.whosayssowhat.top:4022/udp/239.77.0.141:5146
+湛江公共,http://ct.whosayssowhat.top:4022/udp/239.77.0.140:5146
+茂名综合,http://ct.whosayssowhat.top:4022/udp/239.77.0.206:5146
+茂名公共,http://ct.whosayssowhat.top:4022/udp/239.77.0.207:5146
+揭阳综合,http://ct.whosayssowhat.top:4022/udp/239.77.0.229:5146
+揭阳公共,http://ct.whosayssowhat.top:4022/udp/239.77.0.251:5146
+云浮综合,http://ct.whosayssowhat.top:4022/udp/239.77.0.253:5146
+云浮公共,http://ct.whosayssowhat.top:4022/udp/239.77.0.254:5146
+汕头综合,http://ct.whosayssowhat.top:4022/udp/239.253.43.45:5146
+汕头经济生活,http://ct.whosayssowhat.top:4022/udp/239.253.43.46:5146
+汕头文化体育,http://ct.whosayssowhat.top:4022/udp/239.253.43.47:5146
+肇庆综合,http://ct.whosayssowhat.top:4022/udp/239.253.43.1:5146
+肇庆公共,http://ct.whosayssowhat.top:4022/udp/239.253.43.2:5146
+清远新闻综合,http://ct.whosayssowhat.top:4022/udp/239.253.43.33:5146
+清远公共,http://ct.whosayssowhat.top:4022/udp/239.253.43.34:5146
+河源综合,http://ct.whosayssowhat.top:4022/udp/239.253.43.213:5146
+河源公共,http://ct.whosayssowhat.top:4022/udp/239.253.43.214:5146
+东莞综合,http://ct.whosayssowhat.top:4022/udp/239.253.43.104:5146
+东莞生活,http://ct.whosayssowhat.top:4022/udp/239.253.43.105:5146
