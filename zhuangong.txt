@@ -1,0 +1,3 @@
+测试#g
+CCTV1,http://cfss.cc/api/ysp/cctv1.m3u8
+北京卫视,http://cfss.cc/api/ysp/bjws.m3u8
