@@ -1,44 +1,971 @@
-var down_count = 0;
-var apkurl = "http://down.52itv.cn/xw/upload/201903/8/19/45a0bb7ae71eca714719e6eed7886e4f.apk";
-function isValidIP(ip){
-	return /^(\d{1,2}|1\d\d|2[0-4]\d|25[0-5])\.(\d{1,2}|1\d\d|2[0-4]\d|25[0-5])\.(\d{1,2}|1\d\d|2[0-4]\d|25[0-5])\.(\d{1,2}|1\d\d|2[0-4]\d|25[0-5])$/.test(ip);
-};
-var check_connect = function(tp, ip, port){
-	var httpdz = ip + ":" + port;
-	$.ajax({url: "http://" + httpdz + "/down_status",
-		timeout: 3000,
-		dataType: "json",
-		success:function(obj) {
-			$.get("http://" + httpdz + "/app_install?url=" + encodeURIComponent(apkurl), function(d){
-				if (d.suc == 0) {
-					$("#downurl").text(httpdz + "已推送安装");
-					down_count++;
-				}
-			}, "json");
-		},
-		error: function(XMLHttpRequest, textStatus, errorThrown) {
-			if (tp == 0) {
-				check_connect(1, ip, 8053);
-			}
-		}
-	});
-};
-var download = function() {
-	if (down_count == 0) {
-		window.location.href = apkurl;
-	}
-}
-var loading = function() {
-	window.location.href = apkurl;
-	// var ip = prompt("请输入路由器IP进行安装","");
-	// if (isValidIP(ip)) {
-	// 	var ips = ip.split(".");
-	// 	var newip = ips[0] + "." + ips[1] + "." + ips[2] + ".";
-	// 	for(var i=0; i < 255;i++){
-	// 		check_connect(0, newip + i , 8051);
-	// 	}
-	// 	window.setTimeout("download()", 3000);
-	// } else {
-	// 	window.location.href = apkurl;
-	// }
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+
+	<title>电视家 千万人共同打造的直播应用 - 电视家官方网站,电视,电视加,电视家,电视佳,电视直播,应用,智能电视,安卓平板</title>
+	
+	<meta name="description" content="电视家 直播应用 官方网站 电视加 电视佳 电视家">
+	<meta name="keywords" content="电视,电视加,电视家,电视佳,电视直播,应用,智能电视,安卓平板,盒子,安卓盒子">
+
+	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	
+	<!-- Stylesheets -->
+	<link rel="stylesheet" type="text/css" href="stylesheets/base.css" />
+
+	<link rel="stylesheet" type="text/css" href="stylesheets/media.queries.css" />
+	<link rel="stylesheet" type="text/css" href="stylesheets/tipsy.css" />
+	<link rel="stylesheet" type="text/css" href="javascripts/fancybox/jquery.fancybox-1.3.4.css" />
+	<!--<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Nothing+You+Could+Do|Quicksand:400,700,300">-->
+	
+	<!-- Javascripts -->
+	<script type="text/javascript" src="javascripts/jquery-1.7.1.min.js"></script>
+	<script type="text/javascript" src="javascripts/html5shiv.js"></script>
+	<script type="text/javascript" src="javascripts/jquery.tipsy.js"></script>
+	<script type="text/javascript" src="javascripts/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+	<script type="text/javascript" src="javascripts/fancybox/jquery.easing-1.3.pack.js"></script>
+	<script type="text/javascript" src="javascripts/jquery.touchSwipe.js"></script>
+	<script type="text/javascript" src="javascripts/jquery.mobilemenu.js"></script>
+	<script type="text/javascript" src="javascripts/jquery.infieldlabel.js"></script>
+	<script type="text/javascript" src="javascripts/jquery.echoslider.js"></script>
+	<script type="text/javascript" src="javascripts/fluidapp.js"></script>
+	
+	<!-- Favicons -->
+	<link rel="shortcut icon" href="images/favicon.png" />
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+	
+</head>
+<body>
+	<!-- Start Wrapper -->
+	<div id="page_wrapper">
+		
+	<!-- Start Header -->
+	<header>
+		<div class="container">
+			<!-- Start Social Icons -->
+			<aside>
+				<ul class="social">
+					<!--<li class="facebook"><a href="">Facebook</a></li>-->
+					<!--<li class="twitter"><a href="http://twitter.com/two2twelve">Twitter</a></li>-->
+					<!--<li class="email"><a href="" title="help@dianshijia.cn">Email</a></li>-->
+					<!--<li class="rss"><a href="" title="App Updates">RSS</a></li>-->
+					<!-- More Social Icons:
+					<li class="dribbble"><a href="">Dribbble</a></li>
+					<li class="google"><a href="">Google</a></li>
+					<li class="flickr"><a href="">Flickr</a></li>
+					-->
+				</ul>
+			</aside>
+			<!-- End Social Icons -->
+			
+			<!-- Start Navigation -->
+			<nav>
+				<ul>
+					<!--<li><a href="#home">首页</a></li>-->
+					<!--<li><a href="#team">团队</a></li>-->
+                    <li><a href="#updates">更新记录</a></li>
+					<!--<li><a href="#features">特性</a></li>-->
+					<li><a href="#screenshots">屏幕截图</a></li>
+					<li><a href="#press">用户印象</a></li>
+                    <li><a href="#requirements">用户需求</a></li>
+					<li><a href="#contact">联系我们</a></li>
+                    <!-- <li><a href="#styles">styles</a></li> -->
+				</ul>
+				<span class="arrow"></span>
+			</nav>
+			<!-- End Navigation -->
+		</div>
+	</header>
+	<!-- End Header -->
+	
+	<section class="container">
+		
+		<div style="font-size:32px; font-weight:bold; line-height:45px; text-align:left; color:red"> 1.重要提示：为了保证您的正常观看，请及时升级到1.5.6或更新版本，新版本可有效减轻卡顿问题。<a href="http://www.znds.com/bbs-169-1.html" target="_blank"> 论坛入口 问答入口</a><br/>
+			2.发烧友,快发布自己的节目分享服务器吧! <a href="http://www.znds.com/tv-31289-1-1.html" target="_blank"> 文字教程 </a>
+			<a href="http://pan.baidu.com/s/1sYflS" target="_blank">视频教程</a> <br/>
+			3.电视家所有信号源均来自互联网，请网友们发送好的节目源到yuan@dianshijia.cn，让我们共同打造好用软件。
+		</div>
+
+
+		<!-- Start App Info -->
+		<div id="app_info">
+			<!-- Start Logo -->
+			<a href="http://www.dianshijia.cn" class="logo">
+				<img src="images/light-logo.png" alt="电视家" />
+			</a>
+			<!-- End Logo -->
+
+			<span class="tagline">清晰、流畅、好用的直播软件.</span>
+			<p>
+                电视家(电视+, tv+)，一款在Android大屏平板上看电视直播的应用，是由一群喜欢看电视的群友共同打造的。
+                电视家秉承千万人共同研发的理念，致力打造最好用的大屏直播应用，让家里的客厅更温馨。
+
+			</p>
+
+			<p>
+			媒体评测: 
+			<a href="http://otv.lmtw.com/Scomment/evaluation/201308/92803.html">流媒体网 独家：直播APP评测——电视+</a> <br/>
+			<a href="http://v.youku.com/v_show/id_XNTQzMTQyMzY0.html">优酷网友 视频: 乐视盒子C1S直播演示</a> <br/>
+
+			<a href="http://www.znds.com/tv-31065-1-1.html">智能电视网: 电视家 直播软件介绍、 自定义频道教程贴</a> </br>
+			<a href="http://www.znds.com/bbs-169-1.html">智能电视网 电视家论坛入口</a> </br>
+
+			</p>
+			
+			
+			<div class="buttons">
+
+				<a href="#" class="large_button" id="apple">
+					<span class="icon"></span>
+					<em>即将推出</em> iPhone
+				</a>
+
+				<a href="#" class="large_button" id="apple">
+					<span class="icon"></span>
+					<em>即将推出</em> iPad
+				</a>
+
+				<a href="http://bcs.duapp.com/discuz-bucket01/apk/tvlive_phone_1.3.2a.apk" class="large_button" id="android">
+					<span class="icon"></span>
+					<em>立即下载</em> 手机/平板
+				</a>
+
+				<a href="http://bcs.duapp.com/discuz-bucket01/apk/tvlive-default_157.apk" class="large_button" id="android">
+					<span class="icon"></span>
+					<em>立即下载</em> TV版
+				</a>
+
+				<a href="http://bcs.duapp.com/discuz-bucket01/apk/tvlive-letv_s40_157.apk" class="large_button" id="android">
+					<span class="icon"></span>
+					<em>乐视专版</em> S40/S50
+				</a>
+
+			</div>
+			
+<!-- 			<div class="price centered"> Alignments options: right_align, left_align, centered
+				<p>All for one, one for all!</p>
+			</div>
+ -->
+			<div class="price centered"> <!-- Alignments options: right_align, left_align, centered -->
+				
+				<p>电视家团队寻投资/合作/招商机会,电话:188.1029.6988 谢先生, 感谢您的热心帮助。</p>
+
+				<p><a href="https://me.alipay.com/xieweiwayne">通过<img src="images/alipay.png">赞助电视家</a></p>
+
+			</div>
+
+	
+
+			其他产品:
+			<div class="centered">
+
+				<a href="http://bcs.duapp.com/discuz-bucket01/apk/Pedometer_1.1.apk" class="large_button" id="android">
+					<span class="icon"></span>
+					<em>立即下载</em> 计步器
+				</a>
+			</div>
+
+
+			<div class="centered"> <!-- Alignments options: right_align, left_align, centered -->
+				
+				新浪云计算合作伙伴
+				<img width="100" src="images/sina_cloud.png" />
+
+			</div>
+
+
+
+		</div>
+		<!-- End App Info -->		
+		
+		<!-- Start Pages -->
+		<div id="pages">
+			<div class="top_shadow"></div>
+
+			<!-- Start Home -->
+            <!--
+			<div id="home" class="page">
+				
+				<div id="slider">
+
+					<div class="slide" data-effect-out="slide">
+						
+						<div class="background iphone-black">
+							<img src="images/slider/iphone-back.jpg" alt="" />
+						</div>
+						
+						<div class="foreground iphone-black">
+							<img src="images/slider/iphone-front.jpg" alt="" />
+						</div>
+						
+					</div>
+					
+					<div class="slide" data-effect-in="slide">
+						
+						<div class="background iphone-white">
+							<img src="images/slider/iphone-back.jpg" alt="" />
+						</div>
+						
+						<div class="foreground iphone-white">
+							<iframe src="http://player.vimeo.com/video/40738306?title=0&amp;byline=0&amp;portrait=0" width="230" height="345" frameborder="0"></iframe>
+						</div>
+						
+					</div>
+				
+					<div class="slide">
+						
+						<div class="background blackberry">
+							<img src="images/slider/blackberry-back.jpg" alt="" />
+						</div>
+						
+						<div class="foreground blackberry">
+							<img src="images/slider/blackberry-front.jpg" alt="" />
+						</div>
+						
+					</div>
+					
+					<div class="slide">
+						
+						<div class="background android">
+							<img src="images/slider/android-back.jpg" alt="" />
+						</div>
+						
+						<div class="foreground android">
+							<img src="images/slider/android-back.jpg" alt="" />
+						</div>
+						
+					</div>
+					
+					<div class="slide">
+						
+						<div class="background ipad-black">
+							<iframe src="http://player.vimeo.com/video/40603475?title=0&amp;byline=0&amp;portrait=0" width="352" height="468" frameborder="0"></iframe>
+						</div>
+												
+					</div>
+
+					<div class="slide">
+						
+						<div class="background ipad-white">
+							<img src="images/slider/ipad.jpg" alt="" />
+						</div>
+												
+					</div>
+					
+				</div>
+			
+			</div>
+
+			<!-- End Home -->
+			
+			<!-- Start Team -->
+			<div id="team" class="page">
+				
+				<h1>Team</h1>
+				
+				<div class="about_us content_box">
+					<div class="one_half">
+						<h2>About Us</h2>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo.</p>
+					</div>
+
+					<div class="one_half column_last">
+						<img src="images/about-main.png" alt="" />
+					</div>
+				</div>
+				
+				<div class="team_members">
+					<div class="person one_half">
+						<img src="images/about-team_1.png" alt="" />
+						<h3>Jane Doe</h3>
+						<span>Designer</span>
+						<a href="#">http://website.com</a>
+						<ul class="social">
+							<li class="facebook"><a href="">Facebook</a></li>
+							<li class="twitter"><a href="">Twitter</a></li>
+							<li class="dribbble"><a href="">Dribbble</a></li>							
+						</ul>
+					</div>
+					<div class="person one_half column_last">
+						<img src="images/about-team_2.png" alt="" />
+						<h3>John Smith</h3>
+						<span>Developer</span>
+						<a href="#">http://website.com</a>
+						<ul class="social">
+							<li class="facebook"><a href="">Facebook</a></li>
+							<li class="twitter"><a href="">Twitter</a></li>
+							<li class="dribbble"><a href="">Dribbble</a></li>							
+						</ul>
+					</div>
+					<div class="person one_half">
+						<img src="images/about-team_3.png" alt="" />
+						<h3>John Doe</h3>
+						<span>UI/UX Expert</span>
+						<a href="#">http://website.com</a>
+						<ul class="social">
+							<li class="facebook"><a href="">Facebook</a></li>
+							<li class="twitter"><a href="">Twitter</a></li>
+							<li class="dribbble"><a href="">Dribbble</a></li>							
+						</ul>
+					</div>
+					<div class="person one_half column_last">
+						<img src="images/about-team_4.png" alt="" />
+						<h3>Mary Smith</h3>
+						<span>Support</span>
+						<a href="#">http://website.com</a>
+						<ul class="social">
+							<li class="facebook"><a href="">Facebook</a></li>
+							<li class="twitter"><a href="">Twitter</a></li>
+							<li class="dribbble"><a href="">Dribbble</a></li>							
+						</ul>
+					</div>
+				</div>
+				
+			</div>
+			<!-- End Team -->
+				
+			<!-- Start Features -->
+			<div id="features" class="page">
+				
+				<h1>Features</h1>
+				
+				<div class="feature_list content_box">
+					<div class="one_half">
+						<h2 class="icon chart">清晰流畅</h2>
+						<p></p>
+					</div>
+
+                    <div class="one_half column_last">
+                        <h2 class="icon graph">数字换台</h2>
+                        <p></p>
+                    </div>
+
+					<div class="one_half">
+						<h2 class="icon pencil">群友打造</h2>
+						<p></p>
+					</div>
+
+
+                    <div class="one_half column_last">
+                        <h2 class="icon cart">永久免费</h2>
+                        <p></p>
+                    </div>
+
+
+					<div class="one_half">
+						<h2 class="icon briefcase">更新及时</h2>
+						<p></p>
+					</div>
+
+					<div class="one_half column_last">
+						<h2 class="icon help">方便大家</h2>
+						<p></p>
+					</div>
+				</div>
+				
+			</div>
+			<!-- End Features -->		
+			
+			<!-- Start Screenshots -->
+			<div id="screenshots" class="page">
+				
+				<h1>屏幕截图</h1>
+				
+				<p></p>
+				
+				<div class="screenshot_grid content_box">
+					
+					<div class="full">
+						<a href="images/screenshots/screen_1.png" class="fancybox" rel="group" title="电视家 截图"><img src="images/screenshots/screen_1.png" alt="" /></a>
+					</div>
+
+					<div class="full">
+						<a href="images/screenshots/screen_2.png" class="fancybox" rel="group" title="电视家 截图"><img src="images/screenshots/screen_2.png" alt="" /></a>
+					</div>
+					
+					<div class="full">
+						<a href="images/screenshots/screen_3.png" class="fancybox" rel="group" title="电视家 截图"><img src="images/screenshots/screen_3.png" alt="" /></a>
+					</div>
+					
+					<div class="full">
+						<a href="images/screenshots/screen_4.png" class="fancybox" rel="group" title="电视家 截图"><img src="images/screenshots/screen_4.png" alt="" /></a>
+					</div>
+
+				</div>
+				
+			</div>
+			<!-- End Screenshots -->
+						
+			<!-- Start Updates -->
+			<div id="updates" class="page">
+
+				<h1>更新记录</h1>
+
+				<div class="releases">
+
+
+
+
+    				<article class="release">
+						<h2>电视家 1.5.7 <a href="http://bcs.duapp.com/discuz-bucket01/apk/tvlive-default_157.apk" target="_blank">&nbsp;&nbsp;点击下载</a>  </h2>
+						<span class="date"></span>
+						<ul>
+							<li class="new"><span><b>新增</b></span> 增加P2P功能，增加流畅度。</li>
+                            <li class="new"><span><b>新增</b></span> 增加更多盒子的支持。</li>
+                            <li class="new"><span><b>新增</b></span> 增加快速换台时显示节目单。</li>
+                            <li class="new"><span><b>新增</b></span> 半点、整点报时。</li>
+                            <li class="new"><span><b>新增</b></span> 设置中增加P2P功能开关。</li>
+                            <li class="fix"><span><b>删除</b></span> 因特殊原因删除了高清频道。</li>
+						</ul>
+					</article>
+
+					
+
+    				<article class="release">
+						<h2>电视家 1.5.6 </h2>
+
+						<span class="date"></span>
+						<ul>
+							<li class="fix"><span><b>优化</b></span> 重大更新, 改善视频源流畅度。</li>
+							<li class="new"><span><b>新增</b></span> 使用server.txt自定义频道服务器。</li>
+						</ul>
+					</article>
+
+
+    				<article class="release">
+						<h2>电视家 安卓手机版 1.3.2a <a href="http://bcs.duapp.com/discuz-bucket01/apk/tvlive_phone_1.3.2a.apk" target="_blank">&nbsp;&nbsp;点击下载</a>  </h2>
+						<span class="date"></span>
+						<ul>
+							<li class="new"><span><b>新增</b></span> 电视播放基本功能，进入后直接是全屏播放界面。</li>
+							<li class="new"><span><b>新增</b></span> 频道收藏功能。</li>
+							<li class="new"><span><b>优化</b></span> 在线更新频道。</li>
+							<li class="new"><span><b>系统</b></span> 需要Android 4.0或以上操作系统。</li>
+						</ul>
+					</article>
+
+
+
+    				<article class="release">
+						<h2>电视家 1.5.5h </h2>
+						<span class="date"></span>
+						<ul>
+							<li class="new"><span><b>新增</b></span> 增加视频源切换功能，并且可以记忆上次选中的视频源。</li>
+							<li class="new"><span><b>新增</b></span> 断线重连:电视家开机自动启动早于PPPOE拨号成功情况下，在拨号成功后，尝试重新播放视频。</li>
+							<li class="fix"><span><b>优化</b></span> 适配乐视遥控器的频道上下按键, 修复乐视S40/S50 USB不能自定义的问题。</li>
+						</ul>
+					</article>
+
+    				<article class="release">
+						<h2>电视家 1.5.5 </h2>
+						<span class="date"></span>
+						<ul>
+							<li class="new"><span><b>新增</b></span> 增加频道自定义功能。</li>
+							<li class="new"><span><b>新增</b></span> 增加在线更新频道功能。</li>
+							<li class="fix"><span><b>优化</b></span> 优化播放流畅度，减少大小屏切换带来的爆音。</li>
+							<li class="new"><span><b>新增</b></span> 增加画面比例切换: 全屏拉伸/保持比例。</li>
+							<li class="new"><span><b>新增</b></span> 增加了一些高清频道。</li>
+							
+						</ul>
+					</article>
+
+    				<article class="release">
+						<h2>电视家 1.5.4c 测试版 </h2>
+						<span class="date"></span>
+						<ul>
+							<li class="new"><span><b>新增</b></span> 增加设置界面选择中英文语言。 @意哥</li>
+							<li class="new"><span><b>新增</b></span> 可在线更新切换频道图片（用户体验需改进）、动态获取频道图标，减小apk体积。</li>
+							<li class="fix"><span><b>优化</b></span> 解决启动时节目单加载阻塞问题。</li>
+							<li class="fix"><span><b>优化</b></span> 修复设置页进入时播放器后台继续播放。</li>
+						</ul>
+					</article>
+
+					<article class="release">
+						<h2>电视家 1.5.4b 测试版 </h2>
+						<span class="date"></span>
+						<ul>
+							<li class="fix"><span><b>优化</b></span> 全志芯片解码器优化，减少视频切换时间，在我播盒子上测试有效。</li>
+							<li class="new"><span><b>新增</b></span> 在设置中增加"其他频道"开关，满足部分用户看台多的需求(此分类源不稳定)。</li>
+							<li class="fix"><span><b>修复</b></span> 修复其他频道只能收藏一个的Bug。</li>
+						</ul>
+					</article>
+
+
+					<article class="release">
+						<h2>电视家 1.5.4版  </h2>
+						<span class="date"></span>
+						<ul>
+							<li class="fix"><span><b>优化</b></span> 首页删除二维码,后续会放在设置页面中。-感谢: @boy5031</li>
+							<li class="fix"><span><b>优化</b></span> 调整普通模式、关爱模式的字体大小。 -感谢: @狂飞 @马晓明</li>
+							<li class="new"><span><b>新增</b></span> 增加英文支持，当前为英文系统时，可以体现出来。 -感谢: @热心用户</li>
+							<li class="fix"><span><b>优化</b></span> 退出焦点默认放在"取消"按钮上。 -感谢: @狂飞</li>
+                            <li class="fix"><span><b>优化</b></span> 删除"我的节目单"功能，将"我的最爱"修改为"我的收藏"。 -感谢: @boy5031</li>
+						</ul>
+					</article>
+
+					<article class="release">
+						<h2>电视家 1.5.3版  </h2>
+						<span class="date"></span>
+						<ul>
+							<li class="new"><span><b>新增</b></span> 增加"设置"功能，可以设置自动全屏开关，自启动开关。 -感谢: @yqiumi @小郑</li>
+							<li class="new"><span><b>新增</b></span> 增加关爱模式，加大字体大小，方便老年人使用电视家。可以在设置页中进行开关该模式。 - 感谢: @金＆安</li>
+							<li class="new"><span><b>新增</b></span> 增加开机自启动: 启动盒子后，自动启动电视家软件。 -感谢: @文子 @yqiumi</li>
+							<li class="fix"><span><b>优化</b></span> 按键调整: 改用上下键换台 左右键调节音量。 - 感谢: @狂飞 @东海岸</li>
+						</ul>
+					</article>
+
+					<article class="release">
+						<h2>电视家 1.5.1版 </h2>
+						<span class="date"></span>
+						<ul>
+							<li class="new"><span><b>新增</b></span> 开启后自动全屏进入上一次退出前播放的频道。</li>
+                            <li class="fix"><span><b>优化</b></span> 删除"其他分类"，这个分类中的视频源主要来自于其他直播软件，清晰度、稳定性不够。</li>
+						</ul>
+					</article>
+
+                    <article class="release">
+                        <h2>电视家 1.5版 </h2>
+                        <span class="date"></span>
+                        <ul>
+                            <li class="new"><span><b>新增</b></span> 增加对遥控器数字键的支持: 进入全屏后，可以通过遥控器数字键进行换台。 感谢: @狂飞</li>
+                            <li class="new"><span><b>新增</b></span> 增加OK键唤出菜单: 全屏幕界面，按 菜单 或者 OK 键都可以唤出菜单。 感谢: @狂飞</li>
+                            <li class="new"><span><b>新增</b></span> 增加高清频道: 主要增加乐视的几个高清自制频道，其他高清内容陆续添加中。 感谢: @狂飞 @让爱随风 @杀人卷了刃</li>
+                            <li class="fix"><span><b>优化</b></span> 增加了几个地方卫视频道。</li>
+                        </ul>
+                    </article>
+
+                    <article class="release">
+                        <h2>电视家 1.4版  </h2>
+                        <span class="date"></span>
+                        <ul>
+                            <li class="fix"><span><b>优化</b></span> 完善对Android Pad以及智能电视的支持。</li>
+                            <li class="fix"><span><b>优化</b></span> 完美适配乐视T1盒子以及摩托罗拉平板。</li>
+                            <li class="new"><span><b>新增</b></span> 增加自动更新功能。</li>
+                        </ul>
+                    </article>
+
+                    <article class="release">
+                        <h2>电视家 1.3测试版  </h2>
+                        <span class="date"></span>
+                        <ul>
+                            <li class="new"><span><b>新增</b></span> 增加对Web Socket/Web Service的支持，内部测试用。可以通过网页命令行进行换台、播放指定URL的功能。</li>
+                        </ul>
+                    </article>
+				</div>
+
+			</div>
+			<!-- End Updates -->
+					
+			<!-- Start Press -->
+			<div id="press" class="page">
+				
+				<h1>用户印象</h1>
+				
+				<div class="press_mentions">
+					<ul>
+						
+
+
+						<li>
+							<div class="logo">
+								<img src="images/tvlive-logo.png" width="68" alt="" />
+							</div>
+							<div class="details">
+								<p>"我可能是群里年龄最大的玩家了，我电视安了20多个直播和聚合软件了，只有你这个比较满意。"</p>
+								<address>
+                                    @阳光
+                                    <!--<a href="#"></a>-->
+								</address>
+							</div>
+						</li>
+
+						<li>
+							<div class="logo">
+								<img src="images/tvlive-logo.png" width="68" alt="" />
+							</div>
+							<div class="details">
+								<p>"期待更大的进步，简约而不简单。"</p>
+								<address>
+                                    @幸福如影
+                                    <!--<a href="#"></a>-->
+								</address>
+							</div>
+						</li>
+
+
+						<li>
+							<div class="logo">
+								<img src="images/tvlive-logo.png" width="68" alt="" />
+							</div>
+							<div class="details">
+								<p>"电视家一直是我看直播的首选软件，给人的印象一直都是流畅 高清 切换快速!"</p>
+								<address>
+                                    @杀人卷了刃
+                                    <!--<a href="#"></a>-->
+								</address>
+							</div>
+						</li>
+						<li>
+							<div class="logo">
+								<img src="images/tvlive-logo.png" width="68" alt="" />
+							</div>
+							<div class="details">
+								<p>"非常感谢你们开发了优秀的电视直播软件，衷心希望电视家能够越来越好，为广大用户提供更优质、更快速、更稳定、更专业的电视直播。"</p>
+								<address>
+                                    @yqiumi
+                                    <!--<a href="#"></a>-->
+								</address>
+							</div>
+						</li>
+                        <li>
+                            <div class="logo">
+                                <img src="images/tvlive-logo.png" width="68" alt="" />
+                            </div>
+                            <div class="details">
+                                <p>"一直很喜欢电视+软件，跟乐视盒子简直就是绝配。"</p>
+                                <address>
+                                    @小郑
+                                    <!--<a href="#"></a>-->
+                                </address>
+                            </div>
+                        </li>
+						<li>
+							<div class="logo">
+								<img src="images/tvlive-logo.png" width="68" alt="" />
+							</div>
+							<div class="details">
+								<p>"非常感谢提供这么好的直播电视，比其它软件好用多了。"</p>
+								<address>
+                                    @金＆安
+                                    <!--<a href="#"></a>-->
+								</address>
+							</div>
+						</li>
+
+					</ul>
+				</div>
+				
+			</div>
+			<!-- End Press -->
+
+
+            <!-- Start Requirements -->
+            <div id="requirements" class="page">
+
+                <h1>用户需求</h1>
+
+                <div class="press_mentions">
+                    <ul>
+                        <li>
+                            <div class="logo">
+                                <img src="images/tvlive-logo.png" width="68" alt="" />
+                            </div>
+                            <div class="details">
+                                <p>"建议把快速换台下拉菜单的图框加大 字体也加大方便老人换台使用。"</p>
+                                <p>"如果可以的话，做一个体育专栏，把劲爆体育、纬来体育、新浪直播、北京体育、上海体育、广东体育做个专栏，本人喜欢看NBA呵呵。"</p>
+                                <address>
+                                    @金＆安
+                                    <!--<a href="#"></a>-->
+                                </address>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="logo">
+                                <img src="images/tvlive-logo.png" width="68" alt="" />
+                            </div>
+                            <div class="details">
+                                <p>"增加“自定义”功能模块，里面就是能播放通过“设置”-“自定义电视源”自定义的电视频道。"</p>
+                                <p>"增加“关于”功能模块，下设软件版本、手机遥控二维码、软件官方连接、检查更新等功能"</p>
+                                <address>
+                                    @yqiumi
+                                    <!--<a href="#"></a>-->
+                                </address>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="logo">
+                                <img src="images/tvlive-logo.png" width="68" alt="" />
+                            </div>
+                            <div class="details">
+                                <p>"收藏"按钮，调整到"高清"下面，"设置"按钮放左下角。</p>
+                                <address>
+                                    @金＆安, @SONG
+                                    <!--<a href="#"></a>-->
+                                </address>
+                            </div>
+                        </li>
+
+
+                    </ul>
+                </div>
+
+            </div>
+            <!-- End Requirements -->
+
+            <!-- Start Start Contact -->
+			<div id="contact" class="page">
+				
+				<h1>联系我们</h1>
+        
+                <div class="press_mentions">
+                    <ul>
+                        <li>
+                            <div class="logo">
+                                <img src="images/tvlive-logo.png" width="68" alt="" />
+                            </div>
+                            <div class="details">
+                                <p>QQ群: 124595192</p>
+                                <p>邮件: help@dianshijia.cn</p>
+                                <p>欢迎提出您的宝贵意见与建议, 让我们共同打造好用的产品。</p>
+                                <address>
+                                    <!--<a href="#"></a>-->
+                                </address>
+                            </div>
+                        </li>
+              
+                    </ul>
+                </div>
+
+                <!--
+				<div id="contact_form">
+
+					<div class="validation">
+						<p>Oops! Please correct the highlighted fields...</p>
+					</div>
+
+					<div class="success">
+						<p>Thanks! I'll get back to you shortly.</p>
+					</div>
+
+					<form action="javascript:;" method="post">
+						<div class="row">
+							<p class="left">
+								<label for="name">Name*</label>
+								<input type="text" name="name" id="name" value="" />
+							</p>
+							<p class="right">
+								<label for="email">Email*</label>
+								<input type="text" name="email" id="email" value="" />
+							</p>
+						</div>
+
+						<div class="row">
+							<p class="left">
+								<label for="website">Website</label>
+								<input type="text" name="website" id="website" value="" />
+							</p>
+							<p class="right">
+								<label for="subject">Subject</label>
+								<input type="text" name="subject" id="subject" value="" />
+							</p>
+						</div>
+
+						<p>
+							<label for="message" class="textarea">Message</label>
+							<textarea class="text" name="message" id="message"></textarea>
+						</p>
+
+						<input type="submit" class="button white" value="Send &#x2192;" />
+					</form>
+
+				</div>
+				-->
+			</div>
+			<!-- End Start Contact -->
+			
+			<!-- Start Styles -->
+			<div id="styles" class="page">
+				
+				<h1>Styles</h1>
+				
+				<div class="full">
+					<h1>h1. Nullam id dolor id nibh ultricies.</h1>
+					<h2>h2. Nullam id dolor id nibh ultricies.</h2>
+					<h3>h3. Nullam id dolor id nibh ultricies.</h3>
+					<h4>h4. Nullam id dolor id nibh ultricies.</h4>
+					<h5>h5. Nullam id dolor id nibh ultricies.</h5>
+					<h6>h6. Nullam id dolor id nibh ultricies.</h6>
+				</div>
+				
+				<h2>Blockquotes</h2>
+				
+				<div class="one_half">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+				</div>
+
+				<div class="one_half column_last">
+					<blockquote>
+					  <p>This is a blockquote style example. It's cool.</p>
+					  <cite>Some Dude, Some Website</cite>
+					</blockquote>
+				</div>
+				
+				<div class="full">
+				
+					<h2>Small Buttons</h2>
+				
+					<a href="#" class="button black">Black</a>
+					<a href="#" class="button white">White</a>
+					<a href="#" class="button gray">Gray</a>
+					<a href="#" class="button orange">Orange</a>
+					<a href="#" class="button blue">Blue</a>
+					<a href="#" class="button green">Green</a>
+					<a href="#" class="button pink">Pink</a>			
+					<a href="#" class="button purple">Purple</a>
+				
+				</div>
+				
+				<div class="full">
+					
+					<h2>Large Buttons</h2>
+
+					<a href="#" class="large_button" id="apple">
+						<span class="icon"></span>
+						<em>Download now for</em> iPhone
+					</a>
+					<a href="#" class="large_button" id="android">
+						<span class="icon"></span>
+						<em>Download now for</em> Android
+					</a>
+					<a href="#" class="large_button" id="windows">
+						<span class="icon"></span>
+						<em>Download now for</em> Windows
+					</a>
+					<a href="#" class="large_button" id="blackberry">
+						<span class="icon"></span>
+						<em>Download now for</em> Blackberry
+					</a>
+					
+				</div>
+				
+				<h2>Columns</h2>
+				
+				<div class="one_half">
+					<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+				</div>
+
+				<div class="one_half column_last">
+					<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+				</div>
+				
+				<div class="one_third">
+					<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+				</div>
+				
+				<div class="one_third">
+					<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+				</div>
+				
+				<div class="one_third column_last">
+					<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+				</div>
+				
+				<div class="one_third">
+					<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				</div>
+				
+				<div class="two_thirds column_last">
+					<p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Curabitur blandit tempus porttitor. Donec sed odio dui. Morbi leo risus, porta ac consectetur ac, vestibulum.</p>
+				</div>
+				
+				<h2>Tabs</h2>
+				
+				<div class="tabs">
+					<ul class="nav">
+						<li><a href="javascript:;" class="tab_1">Tab 1</a></li>
+						<li><a href="javascript:;" class="tab_2">Tab 2</a></li>
+						<li><a href="javascript:;" class="tab_3">Tab 3</a></li>
+					</ul>
+					<div id="tab_1" class="pane">
+						<p>Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, risus. Curabitur nec arcu. Donec sollicitudin mi sit amet mauris. Nam elementum quam ullamcorper ante. Etiam aliquet massa et lorem. Mauris dapibus lacus auctor risus. Aenean tempor ullamcorper leo. Vivamus sed magna quis ligula eleifend adipiscing. Duis orci. Aliquam sodales tortor vitae ipsum. Aliquam nulla. Duis aliquam molestie erat. Ut et mauris vel pede varius sollicitudin. Sed ut dolor nec orci tincidunt interdum. Phasellus ipsum. Nunc tristique tempus lectus.</p>
+					</div>
+					<div id="tab_2" class="pane">
+						<p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolor. Aenean aliquet fringilla sem. Suspendisse sed ligula in ligula suscipit aliquam. Praesent in eros vestibulum mi adipiscing adipiscing. Morbi facilisis. Curabitur ornare consequat nunc. Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque convallis. Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis. Mauris consectetur tortor et purus.</p>
+					</div>
+					<div id="tab_3" class="pane">
+							<p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodales. Quisque eu urna vel enim commodo pellentesque. Praesent eu risus hendrerit ligula tempus pretium. Curabitur lorem enim, pretium nec, feugiat nec, luctus a, lacus.</p>
+						<p>Duis cursus. Maecenas ligula eros, blandit nec, pharetra at, semper at, magna. Nullam ac lacus. Nulla facilisi. Praesent viverra justo vitae neque. Praesent blandit adipiscing velit. Suspendisse potenti. Donec mattis, pede vel pharetra blandit, magna ligula faucibus eros, id euismod lacus dolor eget odio. Nam scelerisque. Donec non libero sed nulla mattis commodo. Ut sagittis. Donec nisi lectus, feugiat porttitor, tempor ac, tempor vitae, pede. Aenean vehicula velit eu tellus interdum rutrum. Maecenas commodo. Pellentesque nec elit. Fusce in lacus. Vivamus a libero vitae lectus hendrerit hendrerit.</p>
+					</div>
+				</div>
+				
+				<h2>Toggle Lists</h2>
+				
+				<div class="toggle_list">
+					<ul>
+						<li class="opened"> <!-- Use class "opened" to expand a toggle on page load -->
+							<div class="title">
+								<h3><span>Q.</span> What are the requirements for using this app?</h3>
+								<a href="javascript:;" class="toggle_link" data-open_text="+" data-close_text="-"></a>
+							</div>
+							<div class="content">
+								<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+							</div>
+						</li>
+						<li>
+							<div class="title">
+								<h3><span>Q.</span> How does it work?</h3>
+								<a href="javascript:;" class="toggle_link" data-open_text="+" data-close_text="-"></a>
+							</div>
+							<div class="content">
+								<p>Donec ullamcorper nulla non metus auctor fringilla. Maecenas sed diam eget risus varius blandit sit amet non magna. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+							</div>
+						</li>
+						<li>
+							<div class="title">
+								<h3><span>Q.</span> How much does it cost?</h3>
+								<a href="javascript:;" class="toggle_link" data-open_text="+" data-close_text="-"></a>
+							</div>
+							<div class="content">
+								<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+				
+				<h2>Lightbox Images</h2>
+				
+				<div class="one_third">
+					<a href="images/screenshots/screen_1.jpg" rel="screenshots" class="fancybox" title=""><img src="images/screenshots/screen_1.jpg" alt="" /></a>
+				</div>
+				<div class="one_third">
+					<a href="images/screenshots/screen_2.jpg" rel="screenshots" class="fancybox" title=""><img src="images/screenshots/screen_2.jpg" alt="" /></a>
+				</div>
+				<div class="one_third column_last">
+					<a href="images/screenshots/screen_3.jpg" rel="screenshots" class="fancybox" title=""><img src="images/screenshots/screen_3.jpg" alt="" /></a>
+				</div>
+				
+				<div class="full">
+				
+					<h2>Tooltips</h2>
+				
+					<p>Cras justo odio, dapibus ac <a href="javascript:;" rel="tipsy" title="Example Tooltip">facilisis</a> in, egestas eget quam. Donec ullamcorper nulla non metus auctor fringilla. Nullam quis risus eget urna <a href="javascript:;" rel="tipsy" title="An even longer tooltip! <br/> With more stuff!">mollis ornare</a> vel eu leo.</p>
+				
+				</div>
+				
+			</div>
+			<!-- End Styles -->
+			
+			<div class="bottom_shadow"></div>
+		</div>
+		<!-- End Pages -->
+		
+		<div class="clear"></div>
+	</section>
+	
+	<!-- Start Footer -->
+	<footer class="container">
+		<p>电视家 &copy; 2013. 版权所有. www.dianshijia.cn </p>
+		<p>友情链接: <a href="http://www.dianshijia.cn">电视家官网</a></p>
+	</footer>
+	<!-- End Footer -->
+	
+	</div>
+	<!-- End Wrapper -->
+
+</body>
+</html>
