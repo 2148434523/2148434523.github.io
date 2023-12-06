@@ -613,7 +613,7 @@ CGTV,http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000001024/ind
 湖南金鹰卡通,rtsp://115.153.233.154/PLTV/88888888/224/3221225585/iptv7983.smil
 湖南金鹰卡通,rtsp://115.153.212.72/PLTV/88888888/224/3221225585/iptv7983.smil
 湖南金鹰卡通,rtsp://115.153.245.70/PLTV/88888888/224/3221225585/iptv7983.smil
-广东珠江,http://39.135.32.28:6610/PLTV/77777777/224/3221225717/index.m3u8?servicetype=1&IASHttpSessionId=OTT
+广东珠江,http://gxdl-lhs.8866.org:85/tsfile/live/1060_1.m3u8?key=txiptv&playlive=1&authid=0
 广东文化,https://glive.grtn.cn/live/wenhua_test0203.m3u8?auth_key=1617289309-0-0-7b2730980c8860963374597c20ad3935
 广西南宁影视娱乐,http://hls.nntv.cn/nnlive/NNTV_VOD_A.m3u8
 拉萨文旅频道,https://live.lasatv.cn/lasatv-whly/whly720x576.m3u8?auth_key=1647761585-0-0-1a613f8be81d1342c6a9415d6b20f8b3
