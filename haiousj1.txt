@@ -1503,6 +1503,7 @@ NewTv明星大片,http://[2409:8087:2001:20:2800:0:df6e:eb18]/wh7f454c46tw285669
 斗鱼搞笑HD5,http://epg.112114.xyz/douyu/8737695
 
 影视频道,#genre#
+父母爱情,http://newcntv.qcloudcdn.com/asp/hls/1200/0303000a/3/default/36de98d0b6814ea58f1fff655b818fca/1200.m3u8
 成龙电影,http://jxiptv.xn--9kqp7k2rd.com/svip/yy.php?t=34460526
 4K影视,http://159.75.85.63:5828/4kys.php
 4K超高清电影,http://159.75.85.63:5681/sxg.php
