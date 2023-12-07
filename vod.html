@@ -4,7 +4,7 @@
 <meta charset="utf-8" />
 <meta name="renderer" content="webkit">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-<title>电视直播网</title>
+<title>视频解析</title>
 <meta name="keywords" content="" />
 <meta name="description" content="" />
 <link type="text/css" rel="stylesheet" href="img/css.css"/>
@@ -14,13 +14,13 @@
 <div class="headertop">
 	<div class="top">
     	<div class="top_nav w1000">
-    		<p class="left">欢迎光临电视直播网！</p>
-            <div class="right"><a href="https://www.bingdou.com.cn/" title="网站地图">网站地图</a> | <a href="https://www.bingdou.com.cn/" title="联系我们">联系我们</a></div>
+    		<p class="left">欢迎光临视频解析网！</p>
+            <div class="right"><a href="http://www.bingdou.net/" title="网站地图">网站地图</a> | <a href="http://www.bingdou.net/" title="联系我们">联系我们</a></div>
         </div>
         <div style="clear:both"></div>
     </div>
    <div class="top_mise w1000">
-   		<div class="logo left"><a href="index.html" title="电视直播网"><img src="img/logo.png" width="320" height="60" alt="电视直播网"></a></div>
+   		<div class="logo left"><a href="index.html" title="视频解析网"><img src="img/logo_vod.png" width="320" height="60" alt="视频解析网"></a></div>
         <div class="share left"></div>
         <div class="search right">
 		<script>
@@ -41,14 +41,14 @@ var mediav_ad_height = '35';
 			<div class="navigation-v3">
 				<ul>
 					<li><h2><a href="/">首 页</a></h2></li>
-					<li class="nav-up-selected-inpage"><h2><a href="index.html">电视直播</a></h2></li>
+					<li><h2><a href="index.html">电视直播</a></h2></li>
 					<li><h2><a href="music.html">音乐盒</a></h2></li>
 					<li><h2><a href="radio.html">网络电台</a></h2></li>
-					<li><h2><a href="vod.html">视频解析</a></h2></li>
-					<li><h2><a href="https://www.a1234.net.cn/" target="_blank">源码下载</a></h2></li>
-					<li><h2><a href="http://www.a1234.com.cn/" target="_blank">AIYA资源</a></h2></li>
-					<li><h2><a href="http://6pan.vip/" target="_blank">六盘云</a></li>
-					
+					<li class="nav-up-selected-inpage"><h2><a href="vod.html">视频解析</a></h2></li>
+					<li><h2><a href="https://so.bingdou.xyz/" target="_blank">全能搜索</a></h2></li>
+					<li><h2><a href="https://v.bingdou.wang/" target="_blank">美女秀场</a></h2></li>
+					<li><h2><a href="https://v.bingdou.xyz/" target="_blank">免费电影</a></li>
+					<li><h2><a href="https://tao.qianqi.net/" target="_blank">优惠券</a></h2></li>
 				</ul>
 			</div>
 		</div>
@@ -56,18 +56,32 @@ var mediav_ad_height = '35';
 </div>
 <!--导航结束-->
 <div class="wrap2">
-<div class="clear blank20"></div>
-    <div class="bodyBg"> 
-    	<div class="bg bg01"></div>
-    </div>
+<div class="clear blank10"></div>
+<div class="yb_bansearch"> 
+                <div class="yb_banSch confixed">
+				<input class="bingdouplayer_input" id="u" type="text" value="http://v.youku.com/v_show/id_XMTU2ODg2MzQwMA==.html">
+                    <input type="button" class="bingdouplayer_submit" value="立即播放" onClick="player()">
+                </div> 
+ </div>
+            <div class="header"></div>
           <div class="content">
-<!--网络电视代码开始-->
-<script>
-var w = '960'; //宽度
-var h = '520'; //高度
-document.write('<iframe src="https://tv.bingdou.xyz/live.html" id="playerFrame" width="'+w+'" height="'+h+'" scrolling="no" frameborder="0" marginwidth="0" marginheight="0" border="0"></iframe>');
+            <div class="topFouce">
+              <div class="yb_bflash" style="width:960px;height:520px;">
+<div id="bingdouplayer"></div>
+<!--视频云播放器代码开始-->
+<script type="text/javascript">
+function player(){
+	var str = document.getElementById("u").value;
+	if(str!=''){w='960';h='520';s='no';
+		document.getElementById("bingdouplayer").innerHTML='<iframe width="'+w+'" height="'+h+'" src="https://api.bingdou.xyz/?url='+str+'" frameborder=0 border=0 marginwidth=0 marginheight=0 scrolling='+s+'></iframe>';	
+	}else{alert("请填写播放地址");}
+}
+player();
+function tv(data){document.getElementById("u").value=data+'.tv';player();}
 </script>
-<!--网络电视代码结束-->
+<!--视频云播放器代码结束-->
+</div>
+</div>
 </div>
 <div class="clear blank70"></div>
 </div>
@@ -78,8 +92,7 @@ document.write('<iframe src="https://tv.bingdou.xyz/live.html" id="playerFrame" 
 <a href="/">网站首页</a>
  | <a href="">关于我们</a>
  | <a href="">联系我们</a>
- | <a href="">免责声明</a>
-</div>
+ | <a href="">免责声明</a></div>
 <div class="bottom_box">声明：本站所有资源均收集于网络，版权归原作者所有，如果有侵犯到您的权益，请联系本站删除，谢谢合作！</div>
 <div class="bottomtext">Copyright &copy; 2012-<script type="text/javascript">copyright=new Date();update=copyright.getFullYear();document.write(""+ update + "");</script> huangbin.net, All Rights Reserved.</div>
 </div>

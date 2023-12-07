@@ -1,0 +1,39 @@
+<html>
+<head>
+<title>音乐电台</title>
+<style type="text/css">
+html,body,div,iframe{margin:0;padding:0;overflow:hidden;}
+.tv{margin:0;padding:0;width:100%;height:100%;}
+iframe{v:expression(this.src='about:blank',this.outerHTML='');}
+#aframe{v:expression() !important}
+</style>
+</script>
+</head>
+<body>
+<script type="text/javascript">
+function QueryString(){
+var name,value,i;
+var str=location.href;
+var num=str.indexOf("?")
+str=str.substr(num+1);
+var arrtmp=str.split("&");
+for(i=0;i < arrtmp.length;i++){
+num=arrtmp[i].indexOf("=");
+	if(num>0){
+		name=arrtmp[i].substring(0,num);
+		value=arrtmp[i].substr(num+1);
+		this[name]=value;
+	}
+}
+}
+var Request=new QueryString();
+url=Request["url"];
+var w = '750'; //宽度
+var h = '520'; //高度
+var s = 'yes'; //是否显示滚动条，yes显示，no不显示
+if (url=="wangyi") {document.write('<iframe class="tv" id="aframe" src="http://music.163.com/embedapp" width="745" height="515" frameborder="0" scrolling="no"></frame>');}
+else if (url=="kuwo")   {document.write('<iframe class="tv" id="aframe" src="http://player.kuwo.cn/webmusic/webmusic2011/hao123/index.jsp?f=coobotv" width="750" height="520" frameborder="0" scrolling="no"></frame>');}
+</script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/yellowside/jquery/tj.js"></script>
+</body>
+</html>
