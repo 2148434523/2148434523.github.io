@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head><base target="_blank" />
+<meta http-equiv="X-UA-Compatible" content="IE=7" />
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />       
+<title>音乐盒</title>   
+<link  href="images/music.css" rel="Stylesheet" />
+<style>/*tempt ,remove later*/ .erji-link li{ width:85px;}</style></head>
+<body>    
+<div class='m-box1 l-w music-provider'>        
+<div class='m-box1-hd'></div>        
+<div class='m-box1-bd'>              
+<div class='music-pdetail' id='music-pdetail'>         
+<div class="music-side" id='music-side'><p class='music-hint'>不喜欢？换一家试试</p>                                     
+<ul class="m-mlist" id='recommend'>                              
+</ul>                
+</div>                
+<iframe class="music-iframe" id='music-iframe' scrolling="no" src='' frameborder="0"></iframe>                  
+</div>            
+<div class='music-plist' id='music-plist' >                
+<ul class='m-mlist' id="index-list"></ul>                
+<div class="music-plist-control">                       
+</div>             
+</div>        
+</div>
+</div>
+<script type="text/javascript">var pageId = "coobotv-newmusic";</script>
+<script type="text/javascript">
+    var fmProvider = [
+      { recommend: 7, imgName: 'wangyi.png', playerURL: 'url.php?url=wangyi', title: '网易云音乐', description: '网易云音乐是一款发现与分享的音乐产品!', id: 'wangyi_fm'},
+      { recommend: 17, imgName: '5sing.png', playerURL: 'url.php?url=wochang', title: '5sing我唱', description: '最值得你拥有的手机音乐播放器!', id: 'wochang_fm'},
+      { recommend: 13, imgName: 'green-64.png', playerURL: 'url.php?url=yyt', title: '音悦台TV', description: '全球最大的高清MV网站', id: 'yinyuetai_fm'},
+      { recommend: 11, imgName: 'sohu.png', playerURL: 'url.php?url=sohu', title: '搜狐音乐盒', description: '高清MV,高清演出,高清音乐', id: 'beva_fm' },
+      { recommend: 14, imgName: 'duole.png', playerURL: 'url.php?url=duole', title: '多乐音乐盒', description: '打开<br/>就有好音乐', id: 'duole_fm' }
+     
+
+
+    ];
+    var mbProvider = [
+      { recommend: 4, imgName: 'xiami.png', playerURL: 'url.php?url=xiami', title: '虾米音乐', description: '经典老歌与<br>各色榜单', id: 'xiami_mb', minRandom: 1, maxRandom: 25 },
+      { recommend: 1, imgName: 'kugou-mb.png', playerURL: 'url.php?url=kugou', title: '酷狗音乐', description: ' 超大屏幕<br>展示歌词', id: 'kugou_mb', minRandom: 26, maxRandom: 50 },
+      { recommend: 3, imgName: '1ting.png', playerURL: 'url.php?url=1ting', title: '一听音乐', description: '高音质老牌 音乐播放器', id: '1ting_mb', minRandom: 51, maxRandom: 75 },
+      { recommend: 2, imgName: 'kuwomb.png', playerURL: 'url.php?url=kuwo', title: '酷我音乐', description: '百万歌曲<br> 一点即播', id: 'kuwo_mb' , minRandom: 76, maxRandom: 100 },
+      { recommend: 10, imgName: 'baidu.png', playerURL: 'url.php?url=baidu', title: '百度音乐', description: '可以找到自己喜欢的音乐', id: 'baidu_mb' },
+      { recommend: 8, imgName: 'duomi.png', playerURL: 'url.php?url=duomi', title: '多米音乐', description: '让音乐跟我走', id: 'duomi_mb' },
+      { recommend: 9, imgName: 'jiuku.png', playerURL: 'url.php?url=jiuku', title: '九酷听听', description: '听好歌，<br>上九酷！', id: 'jiuku_mb' }
+    ];
+  
+</script>
+<script type="text/javascript" src="images/subpage21.js"></script>
+<!--[if lte IE 6]>
+<script type="text/javascript">
+(function () {        var rec = document.getElementById('recommend'),
+            lis = rec.getElementsByTagName('li'),            imgs = rec.getElementsByTagName('img');       
+ Hao.Hover(lis, 'li-hover');
+        for (var i = 0; i < imgs.length; i++) 
+{            imgs[i].src = imgs[i].src.replace('png', 'jpg');        }    })(); </script>
+<![endif]-->
+<script type="text/javascript" src="images/music21.js"></script>
+<script src="images/monitor.js"></script>
+<script language="JavaScript"> 
+document.oncontextmenu=new Function("event.returnValue=false;"); 
+document.onselectstart=new Function("event.returnValue=false;");
+function killErrors() {
+return true;
+}
+window.onerror = killErrors; 
+</script>
+<div style="display:none;">
+<script type="text/javascript" src="http://tajs.qq.com/stats?sId=30775223" charset="UTF-8"></script>
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F0388e27ad00b627fe43bd8d8dea61a0b' type='text/javascript'%3E%3C/script%3E"));
+</script>
+</div>
+</body>
+</html>
