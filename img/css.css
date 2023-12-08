@@ -23,7 +23,7 @@ a:link,a:visited{text-decoration:none}
 .headertop .top_mise .search{height:40px;width:410px;}
 .headertop .top_mise .share{width:250px;margin-top:27px;padding-right:5px;}
 
-.head-v3{position:relative;z-index:100;min-width:1000px}
+.head-v3{position:relative;z-index:150;min-width:1000px}
 .head-v3 .navigation-inner{margin:0 auto;width:1000px;position:relative}
 .navigation-up{height:60px;background:#1161ba;}
 .navigation-up .navigation-v3{float:left;_margin-left:10px}
