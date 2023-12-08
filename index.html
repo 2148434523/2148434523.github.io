@@ -1,9 +1,9 @@
 <html>
 <head>
-<title>¸ßÇåÍøÂçµçÊÓ V2.4.1</title>
+<title>æµ·é¸¥ç›´æ’­</title>
 <meta http-equiv=Content-Type content=text/html;charset=gb2312>
-<meta name="Keywords" content="ÍøÂçµçÊÓ" />
-<meta name="description" content="¸ßÇåÍøÂçµçÊÓ" />
+<meta name="Keywords" content="ç½‘ç»œç”µè§†" />
+<meta name="description" content="æµ·é¸¥ç›´æ’­" />
 <style type="text/css">
 <!--
 body {
@@ -25,45 +25,45 @@ body {
 td {
 	color: #8d948d;
 	font-size: 12px;
-	font-family: "Arial", "ËÎÌå";
+	font-family: "Arial", "å®‹ä½“";
 	text-decoration: none;
 }
 -->
 </style>
 <script language="JavaScript" src="js/dialog.js"></script>
 </head>
-<BODY style="body;overflow-y: hidden;overflow-x: hidden" onLoad="zSet(880,420,'¸ßÇåÍøÂçµçÊÓ V2.4.1');">
+<BODY style="body;overflow-y: hidden;overflow-x: hidden" onLoad="zSet(880,420,'æµ·é¸¥ç›´æ’­');">
 <SCRIPT language=Javascript>
 <!--
 
 <!-- 
-   //ÆÁ±ÎÊó±êÓÒ¼ü¡¢Ctrl+N¡¢Shift+F10¡¢F11¡¢F5Ë¢ÐÂ¡¢ÍË¸ñ¼ü 
-function document.oncontextmenu(){event.returnValue=false;}//ÆÁ±ÎÊó±êÓÒ¼ü 
-function window.onhelp(){return false} //ÆÁ±ÎF1°ïÖú 
+   //å±è”½é¼ æ ‡å³é”®ã€Ctrl+Nã€Shift+F10ã€F11ã€F5åˆ·æ–°ã€é€€æ ¼é”® 
+function document.oncontextmenu(){event.returnValue=false;}//å±è”½é¼ æ ‡å³é”® 
+function window.onhelp(){return false} //å±è”½F1å¸®åŠ© 
 function document.onkeydown() 
 { 
   if ((window.event.altKey)&& 
-      ((window.event.keyCode==37)||   //ÆÁ±Î Alt+ ·½Ïò¼ü ¡û 
-       (window.event.keyCode==39)))   //ÆÁ±Î Alt+ ·½Ïò¼ü ¡ú 
+      ((window.event.keyCode==37)||   //å±è”½ Alt+ æ–¹å‘é”® â† 
+       (window.event.keyCode==39)))   //å±è”½ Alt+ æ–¹å‘é”® â†’ 
   { 
-     alert("²»×¼ÄãÊ¹ÓÃALT+·½Ïò¼üÇ°½ø»òºóÍËÍøÒ³£¡"); 
+     alert("ä¸å‡†ä½ ä½¿ç”¨ALT+æ–¹å‘é”®å‰è¿›æˆ–åŽé€€ç½‘é¡µï¼"); 
      event.returnValue=false; 
   } 
-     /* ×¢£ºÕâ»¹²»ÊÇÕæÕýµØÆÁ±Î Alt+ ·½Ïò¼ü£¬ 
-     ÒòÎª Alt+ ·½Ïò¼üµ¯³ö¾¯¸æ¿òÊ±£¬°´×¡ Alt ¼ü²»·Å£¬ 
-     ÓÃÊó±êµãµô¾¯¸æ¿ò£¬ÕâÖÖÆÁ±Î·½·¨¾ÍÊ§Ð§ÁË¡£ÒÔºóÈô 
-     ÓÐÄÄÎ»¸ßÊÖÓÐÕæÕýÆÁ±Î Alt ¼üµÄ·½·¨£¬Çë¸æÖª¡£*/ 
-  if ((event.keyCode==116)||                 //ÆÁ±Î F5 Ë¢ÐÂ¼ü 
+     /* æ³¨ï¼šè¿™è¿˜ä¸æ˜¯çœŸæ­£åœ°å±è”½ Alt+ æ–¹å‘é”®ï¼Œ 
+     å› ä¸º Alt+ æ–¹å‘é”®å¼¹å‡ºè­¦å‘Šæ¡†æ—¶ï¼ŒæŒ‰ä½ Alt é”®ä¸æ”¾ï¼Œ 
+     ç”¨é¼ æ ‡ç‚¹æŽ‰è­¦å‘Šæ¡†ï¼Œè¿™ç§å±è”½æ–¹æ³•å°±å¤±æ•ˆäº†ã€‚ä»¥åŽè‹¥ 
+     æœ‰å“ªä½é«˜æ‰‹æœ‰çœŸæ­£å±è”½ Alt é”®çš„æ–¹æ³•ï¼Œè¯·å‘ŠçŸ¥ã€‚*/ 
+  if ((event.keyCode==116)||                 //å±è”½ F5 åˆ·æ–°é”® 
       (event.ctrlKey && event.keyCode==82)){ //Ctrl + R 
      event.keyCode=0; 
      event.returnValue=false; 
      } 
-  if (event.keyCode==122){event.keyCode=0;event.returnValue=false;}  //ÆÁ±ÎF11 
-  if (event.ctrlKey && event.keyCode==78) event.returnValue=false;   //ÆÁ±Î Ctrl+n 
-  if (event.shiftKey && event.keyCode==121)event.returnValue=false;  //ÆÁ±Î shift+F10 
+  if (event.keyCode==122){event.keyCode=0;event.returnValue=false;}  //å±è”½F11 
+  if (event.ctrlKey && event.keyCode==78) event.returnValue=false;   //å±è”½ Ctrl+n 
+  if (event.shiftKey && event.keyCode==121)event.returnValue=false;  //å±è”½ shift+F10 
   if (window.event.srcElement.tagName == "A" && window.event.shiftKey)  
-      window.event.returnValue = false;             //ÆÁ±Î shift ¼ÓÊó±ê×ó¼üÐÂ¿ªÒ»ÍøÒ³ 
-  if ((window.event.altKey)&&(window.event.keyCode==115))             //ÆÁ±ÎAlt+F4 
+      window.event.returnValue = false;             //å±è”½ shift åŠ é¼ æ ‡å·¦é”®æ–°å¼€ä¸€ç½‘é¡µ 
+  if ((window.event.altKey)&&(window.event.keyCode==115))             //å±è”½Alt+F4 
   { 
       window.showModelessDialog("about:blank","","dialogWidth:1px;dialogheight:1px"); 
       return false; 
