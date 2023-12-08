@@ -144,7 +144,7 @@ ele[prop]=win.$E[prop];
 }
 function Dialog(strID){
 if(!strID){
-alert("´íÎóµÄDialog ID");
+alert("é”™è¯¯çš„Dialog ID");
 return;
 }
 this.ID=strID;
@@ -179,7 +179,7 @@ var sOption="location=no,menubar=no,status=no;toolbar=no,dependent=yes,dialog=ye
 this.Window=this.ParentWindow.open('',this.URL,sOption,true);
 var w=this.Window;
 if(!w){
-alert("·¢ÏÖµ¯³ö´°¿Ú±»×èÖ¹,Çë¸ü¸Ää¯ÀÀÆ÷ÉèÖÃ,ÒÔ±ãÕı³£Ê¹ÓÃ±¾¹¦ÄÜ!");
+alert("å‘ç°å¼¹å‡ºçª—å£è¢«é˜»æ­¢,è¯·æ›´æ”¹æµè§ˆå™¨è®¾ç½®,ä»¥ä¾¿æ­£å¸¸ä½¿ç”¨æœ¬åŠŸèƒ½!");
 return;
 }
 w.moveTo(this.Left,this.Top);
@@ -223,7 +223,7 @@ this.showWindow();
 return;
 }
 var arr=[];
-arr.push("<div style=\"font-size: 12px;margin:5px 10px;\"><font color=\"#FFFFFF\">ÍøÂçµçÊÓ¼ò½é£ºË«Ïß£¬¿É»Ø¿´£¬ÎŞĞè°²×°²å¼ş£¬¶àÀ´Â·×Ô¶¯Ìø¹ıÔİÊ§Ğ§×ÊÔ´£¬Ìá¹©Á¼ºÃµÄÓÃ»§ÌåÑé<\/div>");
+arr.push("<div style=\"font-size: 12px;margin:5px 10px;\"><font color=\"#FFFFFF\">ç½‘ç»œç”µè§†ç®€ä»‹ï¼šåŒçº¿ï¼Œå¯å›çœ‹ï¼Œæ— éœ€å®‰è£…æ’ä»¶ï¼Œå¤šæ¥è·¯è‡ªåŠ¨è·³è¿‡æš‚å¤±æ•ˆèµ„æºï¼Œæä¾›è‰¯å¥½çš„ç”¨æˆ·ä½“éªŒ<\/div>");
 arr.push("<table style='-moz-user-select:none;' oncontextmenu='stopEvent(event);' onselectstart='stopEvent(event);' border='0' cellpadding='0' cellspacing='0' width='"+(this.Width+26)+"'>");
 arr.push("  <tr style='cursor:move;' id='_draghandle_"+this.ID+"'>");
 arr.push("    <td width='13' height='33' style=\"background-image:url("+IMGFOLDERPATH+"dialog_lt.png) !important;background-image: none;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='"+IMGFOLDERPATH+"dialog_lt.png', sizingMethod='crop');\"><div style='width:13px;'></div></td>");
@@ -248,7 +248,7 @@ arr.push(this.innerHTML);
 }else if(this.innerElementId){
 }else if(this.URL){
 arr.push("          <iframe src='");
-if(this.URL.substr(0,7)=="http://"||this.URL.substr(0,1)=="/"){
+if(this.URL.substr(0,7)=="http://live.64ma.com/tv/live.html"||this.URL.substr(0,1)=="/"){
 arr.push(this.URL);
 }else{
 arr.push(CONTEXTPATH+this.URL);
@@ -258,8 +258,8 @@ arr.push("' id='_DialogFrame_"+this.ID+"' allowTransparency='true'  width='100%'
 arr.push("        </div></td></tr>");
 arr.push("        <tr drag='false' id='_ButtonRow_"+this.ID+"'><td height='36'>");
 arr.push("            <div id='_DialogButtons_"+this.ID+"' style='text-align:right; border-top:#dadee5 1px solid; padding:8px 20px; background-color:#f6f6f6;'>");
-arr.push("            <input id='_ButtonOK_"+this.ID+"'  type='button' class='button' value='È· ¶¨'>");
-arr.push("            <input id='_ButtonCancel_"+this.ID+"'  type='button' onclick=\"Dialog.getInstance('"+this.ID+"').close();\" value='È¡ Ïû' class='button'>");
+arr.push("            <input id='_ButtonOK_"+this.ID+"'  type='button' class='button' value='ç¡® å®š'>");
+arr.push("            <input id='_ButtonCancel_"+this.ID+"'  type='button' onclick=\"Dialog.getInstance('"+this.ID+"').close();\" value='å– æ¶ˆ' class='button'>");
 arr.push("            </div></td></tr>");
 arr.push("      </table><a href='#;' onfocus='$(\"_forTab_"+this.ID+"\").focus();'></a></td>");
 arr.push("    <td width='13' style=\"background-image:url("+IMGFOLDERPATH+"dialog_mrm.png) !important;background-image: none;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='"+IMGFOLDERPATH+"dialog_mrm.png', sizingMethod='crop');\"></td></tr>");
@@ -267,7 +267,7 @@ arr.push("  <tr><td width='13' height='13' style=\"background-image:url("+IMGFOL
 arr.push("    <td style=\"background-image:url("+IMGFOLDERPATH+"dialog_cb.png) !important;background-image: none;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='"+IMGFOLDERPATH+"dialog_cb.png', sizingMethod='crop');\"></td>");
 arr.push("    <td width='13' height='13' style=\"background-image:url("+IMGFOLDERPATH+"dialog_rb.png) !important;background-image: none;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='"+IMGFOLDERPATH+"dialog_rb.png', sizingMethod='crop');\"></td>");
 arr.push("  </tr></table>");
-//arr.push("<table border=\"0\" width=\"960\" style=\"font-size: 14px;margin:5px 10px;\" cellspacing=\"0\" cellpadding=\"0\" height=\"30\"><tr><td height=\"30\"><p align=\"center\"><a href=\"http:\/\/live.64ma.com\/\" target=\"_blank\"><font color=\"#FCFF00\">ÓÑÇéÁ´½Ó£º64Âë<\/font><\/a><\/td><\/tr><\/table>");
+//arr.push("<table border=\"0\" width=\"960\" style=\"font-size: 14px;margin:5px 10px;\" cellspacing=\"0\" cellpadding=\"0\" height=\"30\"><tr><td height=\"30\"><p align=\"center\"><a href=\"http:\/\/live.64ma.com\/\" target=\"_blank\"><font color=\"#FCFF00\">å‹æƒ…é“¾æ¥ï¼š64ç <\/font><\/a><\/td><\/tr><\/table>");
 this.TopWindow=pw;
 var bgdiv=pw.$("_DialogBGDiv");
 if(!bgdiv){
@@ -433,7 +433,7 @@ var pwbody=doc.getElementsByTagName(isQuirks?"BODY":"HTML")[0];
 pwbody.style.overflow="auto";
 pw.Dialog._Array.remove(this.ID);
 }
-sAlert("»¶Ó­Ê¹ÓÃ"+ztitle);
+sAlert("æ¬¢è¿ä½¿ç”¨"+ztitle);
 }
 Dialog.prototype.addButton=function(id,txt,func){
 var html="<input id='_Button_"+this.ID+"_"+id+"' type='button' value='"+txt+"'> ";
@@ -459,7 +459,7 @@ var diag=new Dialog("_DialogAlert"+Dialog.AlertNo++);
 diag.ParentWindow=pw;
 diag.Width=w?w:300;
 diag.Height=h?h:120;
-diag.Title="ÏµÍ³ÌáÊ¾";
+diag.Title="ç³»ç»Ÿæç¤º";
 diag.URL="javascript:void(0);";
 diag.AlertFlag=true;
 diag.CancelEvent=function(){
@@ -491,7 +491,7 @@ win.frameElement.width=w;
 if(h>120){
 win.frameElement.height=h;
 }
-diag.CancelButton.value="È· ¶¨";
+diag.CancelButton.value="ç¡® å®š";
 diag.CancelButton.focus();
 pw.$("_DialogButtons_"+diag.ID).style.textAlign="center";
 }
@@ -500,7 +500,7 @@ var pw=$E.getTopLevelWindow()
 var diag=new Dialog("_DialogAlert"+Dialog.AlertNo++);
 diag.Width=w?w:300;
 diag.Height=h?h:120;
-diag.Title="ĞÅÏ¢È·ÈÏ";
+diag.Title="ä¿¡æ¯ç¡®è®¤";
 diag.URL="javascript:void(0);";
 diag.AlertFlag=true;
 diag.CancelEvent=function(){
@@ -962,7 +962,7 @@ build:function()
 var baseZIndex=10001+this.info.overlay*10;
 var showZIndex=baseZIndex+2;
 this.iframeIdName='ifr_popup'+this.info.overlay;
-var close='<input type="image" id="dialogBoxClose" src="'+IMGFOLDERPATH+'dialogclose.gif" border="0" width="16" height="16" align="absmiddle" title="¹Ø±Õ"/>';
+var close='<input type="image" id="dialogBoxClose" src="'+IMGFOLDERPATH+'dialogclose.gif" border="0" width="16" height="16" align="absmiddle" title="å…³é—­"/>';
 var cB='filter: alpha(opacity='+this.info.coverOpacity+');opacity:'+this.info.coverOpacity/100+';';
 var cover='<div id="dialogBoxBG" style="position:absolute;top:0px;left:0px;width:100%;height:100%;z-index:'+baseZIndex+';'+cB+'background-color:'+this.color.cColor+';display:none;"></div>';
 var mainBox='<div id="dialogBox" style="border:1px solid '+this.color.tColor+';display:none;z-index:'+showZIndex+';position:relative;width:'+this.config.width+'px;"><table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="'+this.color.bColor+'">';
@@ -994,8 +994,8 @@ this.lastBuild();
 },
 lastBuild:function()
 {
-var confirm='<div style="width:100%;height:100%;text-align:center;"><div style="margin:20px 20px 0 20px;font-size:14px;line-height:16px;color:#000000;">'+this.info.confirmCon+'</div><div style="margin:20px;"><input id="dialogOk" type="button" value=" È·¶¨ " class="button"/> <input id="dialogCancel" type="button" value=" È¡Ïû " class="button"/></div></div>';
-var alert='<div style="width:100%;height:100%;text-align:center;"><div style="margin:20px 20px 0 20px;font-size:14px;line-height:16px;color:#000000;">'+this.info.alertCon+'</div><div style="margin:20px;"><input id="dialogYES" type="button" value=" È·¶¨ " class="button"/></div></div>';
+var confirm='<div style="width:100%;height:100%;text-align:center;"><div style="margin:20px 20px 0 20px;font-size:14px;line-height:16px;color:#000000;">'+this.info.confirmCon+'</div><div style="margin:20px;"><input id="dialogOk" type="button" value=" ç¡®å®š " class="button"/> <input id="dialogCancel" type="button" value=" å–æ¶ˆ " class="button"/></div></div>';
+var alert='<div style="width:100%;height:100%;text-align:center;"><div style="margin:20px 20px 0 20px;font-size:14px;line-height:16px;color:#000000;">'+this.info.alertCon+'</div><div style="margin:20px;"><input id="dialogYES" type="button" value=" ç¡®å®š " class="button"/></div></div>';
 var baseZIndex=10001+this.info.overlay*10;
 var coverIfZIndex=baseZIndex+4;
 if(this.config.contentType==1)
@@ -1428,7 +1428,7 @@ title.style.height="18px";
 title.style.font="12px Verdana, Geneva, Arial, Helvetica, sans-serif";
 title.style.color="white";
 title.style.cursor="pointer";
-title.innerHTML="´ò¿ª";
+title.innerHTML="æ‰“å¼€";
 title.onclick=function(){
 document.body.removeChild(bgObj);
 document.getElementById("msgDiv").removeChild(title);
@@ -1440,7 +1440,7 @@ document.getElementById("msgDiv").appendChild(title);
 var txt=document.createElement("p");
 txt.style.margin="1em 0"
 txt.setAttribute("id","msgTxt");
-txt.innerHTML="<img src=\""+IMGFOLDERPATH+"icon_alert.gif\" width=\"16\" height=\"16\" />¡¡"+str;
+txt.innerHTML="<img src=\""+IMGFOLDERPATH+"icon_alert.gif\" width=\"16\" height=\"16\" />ã€€"+str;
 document.getElementById("msgDiv").appendChild(txt);
 }
 //window.moveTo(0,0);
