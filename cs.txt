@@ -1,4 +1,4 @@
-
+CCTV-1,https://live.goodiptv.club/api/sxg.php?id=CCTV-1H265_4000
 CCTV-2,https://live.goodiptv.club/api/sxg.php?id=CCTV-2H265_4000
 CCTV-3,https://live.goodiptv.club/api/sxg.php?id=CCTV-3H265_4000
 CCTV-4,https://live.goodiptv.club/api/sxg.php?id=CCTV-4H265_4000
