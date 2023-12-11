@@ -3,10 +3,8 @@
 <head>
 <meta charset="utf-8" />
 <meta name="renderer" content="webkit">
-<meta name="keywords" content="海鸥直播,海鸥电视直播,海鸥直播官网,央视直播,电视直播软件，卫视,在线,电视直播,在线观看,湖南,风云直播,卫视直播,网络,中央电视台,电视直播网,VST直播,VST全聚合,VST官网网站,VST直播官方网站,小米盒子看直播,直播自定义,网络电视直播,WIFI传源,内网自定义,U盘自定义,小米,海美迪,芒果嗨Q,电视直播,手机直播,网络电视TV版" />
-<meta name="description" content="海鸥电视直播有全国卫视直播频道（高清）、央视、各省市地方频道、潮汕方言电视频道、闽南语电视频道、体育直播、多套24小时精彩影视轮播频道。超过1000个华语电视直播频道，全部免费观看。运行于智能电视机顶盒或者智能电视机，操作简单，集直播、回看、预约、一周节目表（EPG)于一身，继承传统的上下键换台，无需任何学习，下载即可上手。具有行业领先的频道收藏、隐藏、WIFI传源等功能。">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-<title>海鸥直播官网|海鸥电视直播|海鸥直播|在线观看|央视直播|卫视直播|网络|中央电视台|电视直播网</title>
+<title>海鸥直播</title>
 <meta name="keywords" content="" />
 <meta name="description" content="" />
 <link type="text/css" rel="stylesheet" href="img/css.css"/>
@@ -17,7 +15,7 @@
 	<div class="top">
     	<div class="top_nav w1000">
     		<p class="left">欢迎光临海鸥直播网！海鸥直播有多种版本供您选择，免费版、基础版、升级版、至尊版，详情咨询客服QQ（微信同号）：1106513997</p>
-            <div class="right"><a href="https://" title="优惠券"></a><a href="https://" title="联系我们"></a></div>
+            <div class="right"><a href="https://" title="优惠券"></a> <a href="https://" title="联系我们"></a></div>
         </div>
         <div style="clear:both"></div>
     </div>
@@ -43,43 +41,68 @@
 					<li><h2><a href="vod.html">视频解析</a><h2></li>
                                         <li><h2><a href="zifei.html">资费介绍</a><h2></li>
                                         <li><h2><a href="https://pan.xunlei.com/s/VNlOtnEBlXOFN-V5ViEMDwjKA1?pwd=u9zv#">海鸥免费版下载</a><h2></li>
-                                        <li><h2><a href="kefu.html">联系客服</a><h2></li>
-				</ul>
+                                        <li><h2><a href="kefu.html">联系客服</a><h2></li>				</ul>
 			</div>
 		</div>
 	</div>
 </div>
 <!--导航结束-->
-<div class="wrap2">
-<div class="clear blank20"></div>
-    <div class="bodyBg"> 
-    	<div class="bg bg01"></div>
-    </div>
-          <div class="content">
-<!--网络电视代码开始-->
-<script>
-var w = '1000'; //宽度
-var h = '570'; //高度
-document.write('<iframe src="http://m.jrkan2022.com/wlty.html" id="playerFrame" width="'+w+'" height="'+h+'" scrolling="no" frameborder="0" marginwidth="0" marginheight="0" border="0"></iframe>');
-</script>
-<!--网络电视代码结束-->
-</div>
-<div class="clear blank70"></div>
-</div>
+<!--视频云播放器代码开始-->
+  <SCRIPT LANGUAGE="JavaScript">
+        <!--
+        function onload(){
+
+        }
+        function fnChange(){
+        }
+        function onClear(){
+                document.getElementById("vipurl").value="";
+        }
+        function onPlay(){
+                var oJK = document.getElementById("jk");
+                var sJK=oJK.options[oJK.selectedIndex].value;
+                var sVipUrl = document.getElementById("vipurl").value;
+                var oWin = document.getElementById("play");
+                if (sVipUrl.length>0){
+                        oWin.src=sJK + sVipUrl;
+                }
+        }
+
+  </SCRIPT>
+</head>
+<body onload="onload()" bgcolor=#000000>
+<table  width=1000 align="center" height=20 border="1" cellpadding="1" cellspacing="2">
+<tr>
+        <td height="80">
+                <form method="post" action="">
+                <select name="jk" id="jk" size=1 onchange="fnChange()">
+	        <option value="https://www.8090.la/8090/?url=">夏🌻</option>
+                </select>
+                <input type="text" name="vipurl" id="vipurl" size=88 value="把需要播放的VIP视频链接粘贴到这里，然后点击播放即可">
+                <input type="button" value="播放" onclick="onPlay()">
+                <input type="button" value="清除" onclick="onClear()">
+                <textarea rows="2" cols="100" readonly>你先将就着用，看会员视频反正是没问题了，明天晚上我看看再改一下代码，把这几个输入框调整的协调一点</textarea>
+         </form>
+        </td>
+</tr>
+<tr>
+        <td><iframe src="" name="play" id="play" width="1200" align="center" height="600" frameborder="0" marginheight="0" marginwidth="0" scrolling="no"></iframe></td>
+</tr>
+</table>
+<!--视频云播放器代码结束-->
 <!--底部版权开始-->
 <div class="footer">
 <div class="bottom_copyright">
 <div class="bottom_menu_box">
 <a href="/">网站首页</a>
- | <a href="/">关于我们</a>
- | <a href="/">联系我们</a>
- | <a href="/">免责声明</a>
-</div>
-<div class="bottom_box">免责声明：所有直播源均来自网络，本站不存储不制作任何视频，如有侵权问题，请及时联系，请联系本站删除，谢谢合作！</div>
+ | <a href="">关于我们</a>
+ | <a href="">联系我们</a>
+ | <a href="">免责声明</a></div>
+<div class="bottom_box">声明：本站所有资源均收集于网络，版权归原作者所有，如果有侵犯到您的权益，请联系本站删除，谢谢合作！</div>
 <div class="bottomtext">Copyright &copy; 2012-<script type="text/javascript">copyright=new Date();update=copyright.getFullYear();document.write(""+ update + "");</script> huangbin.net, All Rights Reserved.</div>
 </div>
 </div>
 <!--底部版权结束-->
-<script type="text/javascript" src="https://gh/yellowside/jquery/tj.js"></script>
+<script type="text/javascript" src="https://github.bingdou.cc/gh/yellowside/jquery/tj.js"></script>
 </body>
 </html>
