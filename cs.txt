@@ -2,5 +2,4 @@
 CCTV1,http://app.xmgsjx.cn/wz_mp41121liubao4.mp4
 CCTV1,https://haioutv.github.io/5581c743ff155787dc19a8d0b83ff3f0.mp4
 CCTV1,https://m3u8.aosmth.com//liangzi/c51691729c7986a9d74c335fac653aae.m3u8
-坚如磐石,
-https://m3u8.aosmth.com//liangzi/4c80cd148f2a4e95811e4ca6224e3105.m3u8
+坚如磐石,https://m3u8.aosmth.com//liangzi/4c80cd148f2a4e95811e4ca6224e3105.m3u8
