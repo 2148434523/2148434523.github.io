@@ -1,5 +1,11 @@
-央视频道,#genre#
-CCTV1,http://app.xmgsjx.cn/wz_mp41121liubao4.mp4
-CCTV1,https://haioutv.github.io/5581c743ff155787dc19a8d0b83ff3f0.mp4
-CCTV1,https://m3u8.aosmth.com//liangzi/c51691729c7986a9d74c335fac653aae.m3u8
+影视追剧,#genre#
+小满生活,https://m3u8.aosmth.com//liangzi/c51691729c7986a9d74c335fac653aae.m3u8
+小满生活,https://m3u8.aosmth.com//liangzi/266d5126700c946de6aaf0a9690b37ab.m3u8
+小满生活,https://m3u8.aosmth.com//liangzi/a5fa171b869a888fe8a4b23d5f822b6d.m3u8
+小满生活,https://m3u8.aosmth.com//liangzi/b3a4257e4e1952bda490ba235da12911.m3u8
+小满生活,https://m3u8.aosmth.com//liangzi/eec724364804a7a9bcd0d0cf6570ae25.m3u8
+
+
+
+
 坚如磐石,https://m3u8.aosmth.com//liangzi/4c80cd148f2a4e95811e4ca6224e3105.m3u8
