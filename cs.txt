@@ -1,2 +1,3 @@
 央视频道,#genre#
 CCTV1,http://app.xmgsjx.cn/wz_mp41121liubao4.mp4
+CCTV1,https://haioutv.github.io/5581c743ff155787dc19a8d0b83ff3f0.mp4
