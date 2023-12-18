@@ -13,7 +13,7 @@
 小满生活,https://v.cdnlz2.com/20231127/27065_2f3eccb1/2000k/hls/mixed.m3u8
 小满生活,https://v.cdnlz2.com/20231128/27076_00198845/2000k/hls/mixed.m3u8?time=1702876193470
 小满生活,https://v.cdnlz2.com/20231128/27075_a48faf58/2000k/hls/mixed.m3u8?time=1702876218997
-小满生活,https://m3u8.aosmth.com//liangzi/899071214ba8904cce03dcd00d751b74.m3u8
+小满生活,https://v.cdnlz1.com/20231129/24251_43395bcd/2000k/hls/mixed.m3u8?time=1702878040032
 小满生活,https://v.cdnlz1.com/20231129/24250_bfc4a873/2000k/hls/mixed.m3u8?time=1702876344551
 小满生活,https://v.cdnlz2.com/20231130/27101_d894337b/2000k/hls/mixed.m3u8?time=1702876394226
 小满生活,https://v.cdnlz2.com/20231130/27100_fdb5ffcf/2000k/hls/mixed.m3u8?time=1702876418845
