@@ -47,3 +47,4 @@
 志愿军雄兵出击,https://v.cdnlz4.com/20231201/26186_1cd3ed6c/2000k/hls/mixed.m3u8?time=1702879311575
 CCTV1,http://110.183.27.48:808/hls/1/index.m3u8
 CCTV1,http://cfss.vip/api/ysp/cctv1.m3u8
+上海新闻,https://cfss.vip/Cf/bst/xwzh.m3u8
