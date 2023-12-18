@@ -17,10 +17,11 @@
 小满生活,https://v.cdnlz1.com/20231129/24250_bfc4a873/2000k/hls/mixed.m3u8?time=1702876344551
 小满生活,https://v.cdnlz2.com/20231130/27101_d894337b/2000k/hls/mixed.m3u8?time=1702876394226
 小满生活,https://v.cdnlz2.com/20231130/27100_fdb5ffcf/2000k/hls/mixed.m3u8?time=1702876418845
-小满生活,https://v.cdnlz2.com/20231130/27101_d894337b/2000k/hls/mixed.m3u8?time=1702876445804
+小满生活,https://v.cdnlz2.com/20231201/27118_39769edd/2000k/hls/mixed.m3u8?time=1702878194097
 小满生活,https://v.cdnlz2.com/20231201/27117_afc862a0/2000k/hls/mixed.m3u8?time=1702876478365
 小满生活,https://v.cdnlz1.com/20231202/24337_7d8bdf00/2000k/hls/mixed.m3u8?time=1702876524856
 小满生活,https://v.cdnlz1.com/20231202/24336_f2f19534/2000k/hls/mixed.m3u8?time=1702876564065
+小满生活,https://v.cdnlz1.com/20231203/24357_7ae5192e/2000k/hls/mixed.m3u8?time=1702878293153
 小满生活,https://v.cdnlz1.com/20231203/24356_581f2cce/2000k/hls/mixed.m3u8?time=1702876614250
 小满生活,https://v.cdnlz1.com/20231204/24369_17d2afb2/2000k/hls/mixed.m3u8?time=1702876665674
 小满生活,https://v.cdnlz1.com/20231204/24369_17d2afb2/2000k/hls/mixed.m3u8?time=1702877656409
