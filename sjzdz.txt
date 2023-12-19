@@ -206,7 +206,10 @@ CCTV17,https://node1.olelive.com:6443/live/CCTV17HD/hls.m3u8
 秦皇岛,http://zdwjl.eatuo.com:808/tsfile/live/1044_1.m3u8
 阜城新闻,http://zdwjl.eatuo.com:808/tsfile/live/1041_1.m3u8
 邯郸新闻,http://zdwjl.eatuo.com:808/tsfile/live/1040_1.m3u8
-唐山新闻,http://zdwjl.eatuo.com:808/tsfile/live/1001_1.m3u8
+唐山新闻,http://180.97.247.27/1301-tx.otvstream.otvcloud.com/otv/skcc/live/channel13110/index.m3u8
+唐山公共,http://180.97.247.27/1301-tx.otvstream.otvcloud.com/otv/skcc/live/channel13113/index.m3u8
+唐山影视,http://180.97.247.27/1301-tx.otvstream.otvcloud.com/otv/skcc/live/channel13112/index.m3u8
+唐山生活,http://180.97.247.27/1301-tx.otvstream.otvcloud.com/otv/skcc/live/channel13111/index.m3u8
 高碑店,http://zdwjl.eatuo.com:808/tsfile/live/1039_1.m3u8
 清河新闻,https://jwcdnqx.hebyun.com.cn/live/qinghe/1500k/tzwj_video.m3u8
 清河综艺,https://jwcdnqx.hebyun.com.cn/live/qinghe1/1500k/tzwj_video.m3u8
