@@ -216,7 +216,10 @@ CCTV17,https://node1.olelive.com:6443/live/CCTV17HD/hls.m3u8
 平泉综合,https://jwliveqxzb.hebyun.com.cn/pqzh/pqzh.m3u8
 平泉影视,https://jwliveqxzb.hebyun.com.cn/pqys/pqys.m3u8
 
-
+港 澳 台,#genre#
+请用海鸥直播至尊版观看,
+联系客服QQ110651397,
+官网http://s8u.cn/JRWq3,
 
 会员电影,#genre#
 请用海鸥直播至尊版观看,
