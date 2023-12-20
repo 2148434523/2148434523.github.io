@@ -50,8 +50,12 @@
 黑豹2,https://videocut-upload-sz.oss-cn-shenzhen.aliyuncs.com/feedback/1703048845292_29978198421f4cb28e064f19adba1336.jpg?Expires=1703135245&OSSAccessKeyId=LTAIyIPluzf98f5v&Signature=lymZFfbOOSBki2ya3D8UDN3x3Ow%3D
 坚如磐石,https://m3u8.aosmth.com//liangzi/4c80cd148f2a4e95811e4ca6224e3105.m3u8
 好像也没那么热血沸腾,https://v.cdnlz4.com/20231213/26225_2e24fd71/2000k/hls/mixed.m3u8?time=1703071943179
+撞邪,https://v.cdnlz2.com/20231125/27021_6009a547/2000k/hls/mixed.m3u8?time=1703073153832
+劫数难逃,https://v.cdnlz2.com/20231118/26666_822637f3/2000k/hls/mixed.m3u8
+疾速反击,https://v.cdnlz11.com/20231114/18311_55dc9f71/2000k/hls/mixed.m3u8?time=1703072952558
 我是哪吒2之英雄归来,https://v.cdnlz2.com/20231217/27478_4df31f00/2000k/hls/mixed.m3u8?time=1703072020682
-
+鹦鹉杀,https://v.cdnlz11.com/20231110/18225_6974d86f/2000k/hls/mixed.m3u8
+第八个嫌疑人,https://v.cdnlz12.com/20231103/10873_e2d99b53/2000k/hls/mixed.m3u8?time=1703072771600
 战斧行动2喋血,https://vip.lz-cdn3.com/20230704/20033_ec456527/2000k/hls/mixed.m3u8?time=1703072097508
 志愿军雄兵出击,https://v.cdnlz4.com/20231201/26186_1cd3ed6c/2000k/hls/mixed.m3u8?time=1702879311575
 CCTV1,http://110.183.27.48:808/hls/1/index.m3u8
