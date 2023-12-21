@@ -33,10 +33,10 @@ CCTV15,https://node1.olelive.com:6443/live/CCTV15HD/hls.m3u8
 CCTV17,http://cfss.vip/api/ysp/cctv17.m3u8
 CCTV17,https://node1.olelive.com:6443/live/CCTV17HD/hls.m3u8
 会员电影,#genre#
-请用海鸥直播升级版观看,
+请用海鸥直播至尊版观看,
 联系客服QQ110651397,
 会员电视剧,#genre#
-请用海鸥直播升级版观看,
+请用海鸥直播至尊版观看,
 联系客服QQ110651397,
 卫视频道,#genre#
 请用海鸥直播升级版观看,
