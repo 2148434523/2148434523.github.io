@@ -185,7 +185,14 @@ CCTV17,https://node1.olelive.com:6443/live/CCTV17HD/hls.m3u8
 西藏卫视,http://110.183.27.48:808/hls/51/index.m3u8
 新疆卫视,http://110.183.27.48:808/hls/52/index.m3u8
 内蒙古卫视,http://110.183.27.48:808/hls/48/index.m3u8
-省级频道,#genre#
+
+会员电影,#genre#
+请用海鸥直播至尊版观看,
+联系客服QQ110651397,
+会员电视剧,#genre#
+请用海鸥直播至尊版观看,
+联系客服QQ110651397,
+地方频道,#genre#
 湖
 东方财经,https://pi.0472.org/live?auth=202308110958&id=dfcj
 东方财经,http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001318/index.m3u8
