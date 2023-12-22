@@ -190,6 +190,7 @@ CCTV17,https://node1.olelive.com:6443/live/CCTV17HD/hls.m3u8
 我爸没说的那件事,https://v.cdnlz3.com/20231220/22387_e2ad567e/2000k/hls/mixed.m3u8
 生死交锋,https://v.cdnlz3.com/20231218/22362_83b403af/2000k/hls/mixed.m3u8?time=1703071734119
 黑豹2,https://videocut-upload-sz.oss-cn-shenzhen.aliyuncs.com/feedback/1703048845292_29978198421f4cb28e064f19adba1336.jpg?Expires=1703135245&OSSAccessKeyId=LTAIyIPluzf98f5v&Signature=lymZFfbOOSBki2ya3D8UDN3x3Ow%3D
+坚如磐石,http://m.sipso.com.cn/splay/78015-2-1/
 坚如磐石,https://m3u8.aosmth.com//liangzi/4c80cd148f2a4e95811e4ca6224e3105.m3u8
 好像也没那么热血沸腾,https://v.cdnlz4.com/20231213/26225_2e24fd71/2000k/hls/mixed.m3u8?time=1703071943179
 撞邪,https://v.cdnlz2.com/20231125/27021_6009a547/2000k/hls/mixed.m3u8?time=1703073153832
