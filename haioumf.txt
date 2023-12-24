@@ -1,57 +1,93 @@
 视频道,#genre#
+CCTV1,http://cfyy.cc/api/ysp/cctv1
+.m3u8
 CCTV1,http://645c6e6320d051d49b446bac57d65143.v.smtcdns.net/4403-tx.otvstream.otvcloud.com/otv/skcc/live/channel1/index.m3u8
 CCTV1,http://cfyy.vip/api/ysp/cctv1.m3u8
 CCTV1,http://cfss.vip/api/ysp/cctv1.m3u8
 CCTV1,https://node1.olelive.com:6443/live/CCTV1HD/hls.m3u8
+
+CCTV2,http://cfyy.cc/api/ysp/cctv2
+.m3u8
 CCTV2,http://645c6e6320d051d49b446bac57d65143.v.smtcdns.net/4403-tx.otvstream.otvcloud.com/otv/skcc/live/channel2/index.m3u8
 CCTV2,http://cfyy.vip/api/ysp/cctv2.m3u8
 CCTV2,http://cfss.vip/api/ysp/cctv2.m3u8
 CCTV2,https://node1.olelive.com:6443/live/CCTV2HD/hls.m3u8
+
+
+CCTV4,http://cfyy.cc/api/ysp/cctv4
+.m3u8
 CCTV4,http://645c6e6320d051d49b446bac57d65143.v.smtcdns.net/4403-tx.otvstream.otvcloud.com/otv/skcc/live/channel4/index.m3u8
 CCTV4,http://cfyy.vip/api/ysp/cctv4.m3u8
 CCTV4,http://cfss.vip/api/ysp/cctv4.m3u8
 CCTV4,http://101.33.17.11/liveplay-kk.rtxapp.com/live/program/live/cctv4hd8m/8000000/mnf.m3u8
 
+
+CCTV7,http://cfyy.cc/api/ysp/cctv7
+.m3u8
 CCTV7,http://645c6e6320d051d49b446bac57d65143.v.smtcdns.net/4403-tx.otvstream.otvcloud.com/otv/skcc/live/channel7/index.m3u8
 CCTV7,http://cfyy.vip/api/ysp/cctv7.m3u8
 CCTV7,http://cfss.vip/api/ysp/cctv7.m3u8
 CCTV7,https://node1.olelive.com:6443/live/CCTV7HD/hls.m3u8
 
+
+CCTV9,http://cfyy.cc/api/ysp/cctv9
+.m3u8
 CCTV9,http://645c6e6320d051d49b446bac57d65143.v.smtcdns.net/4403-tx.otvstream.otvcloud.com/otv/skcc/live/channel9/index.m3u8
 CCTV9,http://cfyy.vip/api/ysp/cctv9.m3u8
 CCTV9,http://cfss.vip/api/ysp/cctv9.m3u8
 CCTV9,https://node1.olelive.com:6443/live/CCTV9HD/hls.m3u8
 
+
+CCTV10,http://cfyy.cc/api/ysp/cctv10
+.m3u8
 CCTV10,http://645c6e6320d051d49b446bac57d65143.v.smtcdns.net/4403-tx.otvstream.otvcloud.com/otv/skcc/live/channel10/index.m3u8
 CCTV10,http://cfyy.vip/api/ysp/cctv10.m3u8
 CCTV10,http://cfss.vip/api/ysp/cctv10.m3u8
 CCTV10,https://node1.olelive.com:6443/live/CCTV10HD/hls.m3u8
 
+
+CCTV11,http://cfyy.cc/api/ysp/cctv11
+.m3u8
 CCTV11,http://645c6e6320d051d49b446bac57d65143.v.smtcdns.net/4403-tx.otvstream.otvcloud.com/otv/skcc/live/channel11/index.m3u8
 CCTV11,http://cfyy.vip/api/ysp/cctv11.m3u8
 CCTV11,http://cfss.vip/api/ysp/cctv11.m3u8
 CCTV11,https://node1.olelive.com:6443/live/CCTV11HD/hls.m3u8
 
+
+CCTV12,http://cfyy.cc/api/ysp/cctv12
+.m3u8
 CCTV12,http://645c6e6320d051d49b446bac57d65143.v.smtcdns.net/4403-tx.otvstream.otvcloud.com/otv/skcc/live/channel12/index.m3u8
 CCTV12,http://cfyy.vip/api/ysp/cctv12.m3u8
 CCTV12,http://cfss.vip/api/ysp/cctv12.m3u8
 CCTV12,https://node1.olelive.com:6443/live/CCTV12HD/hls.m3u8
 
+
+CCTV13,http://cfyy.cc/api/ysp/cctv13
+.m3u8
 CCTV13,http://645c6e6320d051d49b446bac57d65143.v.smtcdns.net/4403-tx.otvstream.otvcloud.com/otv/skcc/live/channel13/index.m3u8
 CCTV13,http://cfyy.vip/api/ysp/cctv13.m3u8
 CCTV13,http://cfss.vip/api/ysp/cctv13.m3u8
 CCTV13,https://node1.olelive.com:6443/live/CCTV13HD/hls.m3u8
 
+
+CCTV14,http://cfyy.cc/api/ysp/cctv14
+.m3u8
 CCTV14,http://645c6e6320d051d49b446bac57d65143.v.smtcdns.net/4403-tx.otvstream.otvcloud.com/otv/skcc/live/channel14/index.m3u8
 CCTV14,http://cfyy.vip/api/ysp/cctv14.m3u8
 CCTV14,http://cfss.vip/api/ysp/cctv14.m3u8
 CCTV14,://node1.olelive.com:6443/live/CCTV14HD/hls.m3u8
 
+
+CCTV15,http://cfyy.cc/api/ysp/cctv15
+.m3u8
 CCTV15,http://645c6e6320d051d49b446bac57d65143.v.smtcdns.net/4403-tx.otvstream.otvcloud.com/otv/skcc/live/channel15/index.m3u8
 CCTV15,http://cfyy.vip/api/ysp/cctv15.m3u8
 CCTV15,http://cfss.vip/api/ysp/cctv15.m3u8
 CCTV15,https://node1.olelive.com:6443/live/CCTV15HD/hls.m3u8
 
+
+CCTV17,http://cfyy.cc/api/ysp/cctv17
+.m3u8
 CCTV17,http://645c6e6320d051d49b446bac57d65143.v.smtcdns.net/4403-tx.otvstream.otvcloud.com/otv/skcc/live/channel17/index.m3u8
 CCTV17,http://cfyy.vip/api/ysp/cctv17.m3u8
 CCTV17,http://cfss.vip/api/ysp/cctv17.m3u8
