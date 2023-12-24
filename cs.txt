@@ -1,5 +1,6 @@
 CCTV,https://ldncctvwbcdali.v.myalicdn.com/ldncctvwbcd/cdrmldcctv1_1md.m3u8?b=200-1600
-
+CCTV1,http://101.27.38.148:8888/hls/1/index.m3u8
+CCTV5,http://101.27.38.148:8888/hls/1/index.m3u8
 热播电视剧,#genre#
 小满生活,https://m3u8.aosmth.com//liangzi/c51691729c7986a9d74c335fac653aae.m3u8
 小满生活,https://m3u8.aosmth.com//liangzi/266d5126700c946de6aaf0a9690b37ab.m3u8
