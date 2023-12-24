@@ -1,4 +1,4 @@
-翡翠,http://cdn.jdshipin.com:8880/gd电报专属勿外传231216.php?id=fcthd&playseek=20231221200000-20231221203000
+翡翠,http://27.36.62.162:9090/live/1350_4500.m3u8?t=29bc9394bcccd8df02a01fa59952fccc&u=freeuser&p=8&pid=&cid=&d=29bc9394bcccd8df02a01fa59952fccc&sid=vr8VTlZ+rCUx/gD3hmptXg==&r=20231224224204&e=20231225224209&nc=fwzC2PJfZTOW&a=7&v=2&starttime=1703160000&endtime=1703161800&isSuma=1&hlsSessionID=2793077895959583858&srchost=172.16.149.181:8060&gid=4JqvE4h76XGrkXEyu5PsOg%3D%3D
 CCTV,https://ldncctvwbcdali.v.myalicdn.com/ldncctvwbcd/cdrmldcctv1_1md.m3u8?b=200-1600
 CCTV1,http://101.27.38.148:8888/hls/1/index.m3u8
 CCTV1,http://218.17.181.26:1099/tsfile/live/0001_1.m3u8
