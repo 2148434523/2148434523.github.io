@@ -281,7 +281,7 @@ CCTV17,https://node1.olelive.com:6443/live/CCTV17HD/hls.m3u8
 广东影视,https://skype.serv00.net/itouch.php?id=gdys
 广东珠江,https://skype.serv00.net/itouch.php?id=gdzj
 广东体育,https://skype.serv00.net/itouch.php?id=gdty
-广东公共,https://skype.serv00.net/itouch.php?id=gdgg
+
 广东民生,https://skype.serv00.net/itouch.php?id=gdms
 
 广东新闻,https://skype.serv00.net/itouch.php?id=gdxw
