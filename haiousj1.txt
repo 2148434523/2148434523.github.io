@@ -279,12 +279,12 @@ CCTV17,https://node1.olelive.com:6443/live/CCTV17HD/hls.m3u8
 湖南金鹰卡通,rtsp://115.153.212.72/PLTV/88888888/224/3221225585/iptv7983.smil
 
 广东影视,https://skype.serv00.net/itouch.php?id=gdys
-广东珠江,
-https://skype.serv00.net/itouch.php?id=gdzj
+广东珠江,https://skype.serv00.net/itouch.php?id=gdzj
 广东体育,https://skype.serv00.net/itouch.php?id=gdty
 广东公共,https://skype.serv00.net/itouch.php?id=gdgg
-广东民生,https://skype.serv00.net/itouch.php?id=gdys
+广东民生,https://skype.serv00.net/itouch.php?id=gdms
 
+广东新闻,https://skype.serv00.net/itouch.php?id=gdxw
 广东珠江,http://zteres.sn.chinamobile.com:6060/000000001000/2000000003000000033/1.m3u8?channel-id=hnbblive&Contentid=2000000003000000033&livemode=1&stbId=3
 广东珠江,http://gxdl-lhs.8866.org:85/tsfile/live/1060_1.m3u8?key=txiptv&playlive=1&authid=0
 广东文化,https://glive.grtn.cn/live/wenhua_test0203.m3u8?auth_key=1617289309-0-0-7b2730980c8860963374597c20ad3935
