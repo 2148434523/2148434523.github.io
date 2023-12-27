@@ -238,6 +238,13 @@ CCTV17,https://node1.olelive.com:6443/live/CCTV17HD/hls.m3u8
 上海新闻综合,http://219.151.31.38/liveplay-kk.rtxapp.com/live/program/live/xwzhhd/2300000/mnf.m3u8
 上海新闻综合,http://111.40.196.36/wh7f454c46tw3313992406_1474476423/PLTV/88888888/224/3221225499/index.m3u8?icpid=88888888&RTS=1647065909&from=1&hms_devid=63
 上海都市,http://117.148.179.165/PLTV/88888888/224/3221231618/index.m3u8
+
+河北都市,http://zdwjl.eatuo.com:808/tsfile/live/1001_1.m3u8
+河北影视,http://zdwjl.eatuo.com:808/tsfile/live/1002_1.m3u8
+河北少儿,http://zdwjl.eatuo.com:808/tsfile/live/1003_1.m3u8
+河北公共,http://zdwjl.eatuo.com:808/tsfile/live/1004_1.m3u8
+农民频道,http://zdwjl.eatuo.com:808/tsfile/live/1005_1.m3u8
+河北杂技,http://zdwjl.eatuo.com:808/tsfile/live/1006_1.m3u8
 江苏教育,http://[2409:8087:2001:20:2800:0:df6e:eb15]/wh7f454c46tw1391469469_704234273/ott.mobaibox.com/PLTV/88888890/224/3221225923/index.m3u8?icpid=88888890&RTS=1687953603&from=40&popid=40&hms_devid=2115&prioritypopid=40&vqe=3
 江苏公共新闻,http://[2409:8087:2001:20:2800:0:df6e:eb0f]/wh7f454c46tw1421596867_-1892329265/ott.mobaibox.com/PLTV/88888890/224/3221225925/index.m3u8?icpid=88888890&RTS=1687953633&from=40&popid=40&hms_devid=2111&prioritypopid=40&vqe=3
 江苏城市,http://[2409:8087:2001:20:2800:0:df6e:eb14]/wh7f454c46tw1444134710_605660387/ott.mobaibox.com/PLTV/88888890/224/3221225929/index.m3u8?icpid=88888890&RTS=1687953656&from=40&popid=40&hms_devid=2115&prioritypopid=40&vqe=3
@@ -294,10 +301,7 @@ CCTV17,https://node1.olelive.com:6443/live/CCTV17HD/hls.m3u8
 拉萨文旅频道,https://live.lasatv.cn/lasatv-whly/whly720x576.m3u8?auth_key=1647761585-0-0-1a613f8be81d1342c6a9415d6b20f8b3
 乌鲁木齐文体娱乐,http://202.107.188.139:5002/utv5_hdgq.m3u8?token=guoziyun
 中华美食,http://[2409:8087:2001:20:2800:0:df6e:eb03]/wh7f454c46tw2358157348_789958620/ott.mobaibox.com/PLTV/88888890/224/3221227017/index.m3u8?icpid=88888890&RTS=1687954570&from=40&popid=40&hms_devid=2039&prioritypopid=40&vqe=3
-成都1套综合,http://play20.yitoutiao.net/snzx-dev/0725cdtv1.m3u8?auth_key=1690250352-0-0-de6a4a3f8e517dec3a2ad6ec7929e002
-成都2套经济,http://play20.yitoutiao.net/snzx-dev/0725cdtv2.m3u8?auth_key=1690250362-0-0-6dc4e232eefc5bd5cefbbcf859be7166
-成都3套生活,http://play20.yitoutiao.net/snzx-dev/0725cdtv3.m3u8?auth_key=1690250373-0-0-82ff79f335a71b0aafaf29fe6aec520a
-成都5套公共,http://play20.yitoutiao.net/snzx-dev/0725cdtv5.m3u8?auth_key=1690250382-0-0-e597bf3e20b323a4a64f4b092df8942b
+
 湖南卫视,http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001026/index.m3u8?
 浙江卫视,http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001023/index.m3u8?
 江苏卫视,http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001033/index.m3u8?
