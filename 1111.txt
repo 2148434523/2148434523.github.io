@@ -28,7 +28,7 @@ CCTV14,http://195.201.107.189/php/migu.php?id=cctv14
 CCTV15,http://195.201.107.189/php/migu.php?id=cctv15
 
 CCTV16,http://195.201.107.189/php/migu.php?id=cctv16
-
+CCTV16,http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226921/index.m3u8
 CCTV17,http://195.201.107.189/php/migu.php?id=cctv17
 翡翠,http://195.201.107.189/php/smartdaili-v2.php?id=jade_twn
 翡翠,https://tvp22.sky4k.top/index1.php
