@@ -29,3 +29,10 @@ CCTV16,http://195.201.107.189/php/migu.php?id=cctv16
 
 CCTV17,http://195.201.107.189/php/migu.php?id=cctv17
 翡翠,http://195.201.107.189/php/smartdaili-v2.php?id=jade_twn
+翡翠,https://tvp22.sky4k.top/index1.php
+翡翠,http://www.namewee.xyz/gudou.php?id=1350
+翡翠,https://edge6a.v2h-cdn.com/jade/jade.stream/chunklist.m3u8
+J2,http://195.201.107.189/php/smartdaili-v2.php?id=j2_twn
+
+明珠台,http://195.201.107.189/php/smartdaili-v2.php?id=pearl_twn
+无线财经,https://tvp22.sky4k.top/index2.php
