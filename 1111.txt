@@ -1,7 +1,7 @@
 CCTV1,http://195.201.107.189/php/migu.php?id=cctv1
 
-CCTV1,https://i.125011.xyz/migu.php?id=cctv1
-
+CCTV1,https://i.125011.xyz/migu.php?id=cctv1,http://livestreamingde.webredirect.org/migu.php?id=cctv1
+CCTV1,http://livestreamingsg.webredirect.org/migu.php?id=cctv1
 山东卫视,https://i.125011.xyz/migu.php?id=sdws
 CCTV2,http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226195/1.m3u8
 CCTV2,http://195.201.107.189/php/migu.php?id=cctv2
