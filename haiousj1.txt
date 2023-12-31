@@ -446,6 +446,7 @@ CGTN记录,http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888888/224/32212256
 星空卫视,http://line.premiumpowers.net/play/live.php?mac=00:1A:79:73:45:10&extension=ts&stream=683118
 翡翠,http://195.201.107.189/php/smartdaili-v2.php?id=jade_twn
 翡翠,http://line.premiumpowers.net/play/live.php?mac=00:1A:79:73:45:10&extension=ts&stream=571187
+翡翠,http://playback.cloudbutterfly.cn/live/bf2e4eb6ce2efea99716eeb6360440c2.flv
 翡翠,https://edge6a.v2h-cdn.com/jade/jade.stream/chunklist.m3u8
 TVB星河,https://edge6a.v2h-cdn.com/xinghe/xinghe.stream/playlist.m3u8
 翡翠,http://198.16.100.90:8278/jade_twn/playlist.m3u8?tid=ME6E1330319113303191&ct=19225&tsum=d76985c4965fd63807e131035f66af09
