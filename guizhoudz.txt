@@ -1,6 +1,5 @@
 
 CCTV1,https://i.125011.xyz/migu.php?id=cctv1
-CCTV1,http://livestreamingde.webredirect.org/migu.php?id=cctv1
 CCTV2,https://i.125011.xyz/migu.php?id=cctv2
 CCTV3,https://i.125011.xyz/migu.php?id=cctv3
 CCTV4,https://i.125011.xyz/migu.php?id=cctv4
